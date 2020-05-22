@@ -7,7 +7,6 @@
 
 ## TypeChef-VAA Installation
 
-<!-- Note sudo apt install openjdk-7-jdk needs to be done for Busybox -->
 
 1. Run ```sudo apt-get update``` to update your system
 2. Run ```sudo apt-get upgrade``` to download and install the updates
@@ -65,6 +64,67 @@
 32. Delete the last line and uncomment out the second to last line regarding to invoking typechef.sh
 33. Run ```chmod +x runVAA.sh``` and run the script
 34. The script should now work instructions on how to extract results are later
+
+## Axtls-VAA header setup
+**Note you can skip this step if you opted for the repo header build**
+**When you need to modify
+1. Run ```sudo apt-get install libfcgi-dev```
+2. Run ```sudo apt-get install libzzip-dev```
+3. Run ```sudo apt-get install libsqlite-dev```
+4. Run ```sudo apt-get install libmysqlclient-dev```
+5. Run ```sudo apt-get install libpq-dev```
+6. Run ```sudo apt-get install alien```
+7. Download .rpm packages http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html
+   1. oracle-instantclinet*-basic-*.rpm
+   2. oracle-instantclinet*-devel-*.rpm
+   3. oracle-instantclinet*-sqlplus-*.rpm
+8. Run ```sudo alien -i oracle-instantclinet*-basic-*.rpm```
+9. Run ```sudo alien -i oracle-instantclinet*-devel-*.rpm```
+10. Run ```sudo alien -i oracle-instantclinet*-sqlplus-*.rpm```
+11. Download apr-util, apr, and httpd using a web browser or wget and move them to a location that you will include in the runVAA script and run configure on each of them in that order (this may take some time)
+12. Download perl using a web browser or wget and run configure
+
+**Follow the below steps when you have the runVAA.sh file available in the steps**
+1. Modify the runVAA.sh script with the -I flags to point to the header files of apr-util, apr, httpd, and perl
+2. Modify runVAA.sh to point to your version of oracle/<version number>/client in the usr/include directory
+3. Point the -I flags towards your /usr/include folder so TypeChef can recognize the header files
+
+
+
+## Axtls-VAA installation
+**You may get your own headers although I highly would not recommend it or you may clone the required headers to run the analysis from the github repo**
+
+1. Run ```wget https://github.com/paulgazz/kconfig_case_studies/raw/v1.0/cases/axtls_2_1_4/axTLS-2.1.4.tar.gz``` in your main parent directory to download axTLS
+2. Run ```tar -xvf axTLS-2.1.4.tar.gz``` to extract the file and remove the tarball when finished
+3. Either do the above steps or run ```git clone https://github.com/alexarmstrongutd/Axtls-Headers.git```
+4. If you cloned the repo move the contents over into the GNUCHeader folder
+5. Go to the directory axtls-code and run ```make allyesconfig```
+6. Run ```sudo apt install liblua5.3-dev``` to install lua headers needed for make
+7. Run ```make``` there will be some problems due to missing C# files but ignore them
+8. Run ```git clone https://github.com/alexarmstrongutd/TypeChef-Tools.git``` in the main parent directory
+9. Copy HeaderCreator.py over into axtls-code directory
+10. Run ```python3 HeaderCreator.py``` to create openfeatures.txt and header.h
+11. Append the contents of openfeatures.txt into the openfeatures file in the GNUCHeaders Directory
+12. Run ```wget https://github.com/paulgazz/kconfig_case_studies/raw/master/cases/axtls_2_1_4/kconfig.dimacs``` for the dimacs file
+13. Run ```git clone https://github.com/alexarmstrongutd/Axtls-Scripts.git``` on the main parent directory
+14. Move all the files in the scripts directory into axtls-code
+15. For the all files use runVAA.sh for the minimal setup use runVAA2.sh
+16. Run ```mv kconfig.dimacs featureModel.dimacs``` and ```mv header.h config.h```
+17. If you did not opt to use the Header repo please refer to steps above referring to how to modify runVAA.sh accordingly
+18. Run ```./runVAA.sh``` or ```./runVAA2.sh``` depending on your choice
+
+
+## Notes Regarding Toybox
+While the header.h file can be created by modifying the source code in the Busybox analysis folder the program does not use C preprocessor ifs and instead uses the base if statements using macros defined using config options which cannot be understood by TypeChef. Future work requires there be explicit #if options in the source files.
+
+
+## How to extract the results
+1. Copy the cleanVAA.sh, extractScript.sh, ResultStats.py and both parser.py files into the directory with runVAA.sh
+2. Run ```./cleanVAA.sh``` to clear any results first before testing
+3. Run the appropriate runVAA.sh file on your program
+4. Run ```extractScript.sh <Directory Name>``` Directory name should be a non existant directory
+5. Run ```python3 test_parser.py ><Output File>``` to get the Json results
+6. Run ```python3 ResultStats.py <OutputFile from test_parser.py>``` to get the Stat results
 
 
 
