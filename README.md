@@ -119,7 +119,8 @@ While the header.h file can be created by modifying the source code in the Busyb
 
 
 ## How to extract the results
-1. Copy the cleanVAA.sh, extractScript.sh, ResultStats.py and both parser.py files into the directory with runVAA.sh
+1. Be sure to clone the Tools repo if you haven't already
+1. Copy the cleanVAA.sh, extractScript.sh, ResultStats.py and both parser.py files from the Tools repo into the directory with runVAA.sh
 2. Run ```./cleanVAA.sh``` to clear any results first before testing
 3. Run the appropriate runVAA.sh file on your program
 4. Run ```extractScript.sh <Directory Name>``` Directory name should be a non existant directory
