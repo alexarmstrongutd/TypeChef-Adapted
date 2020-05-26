@@ -129,7 +129,7 @@ To generate the header.h file specifically modify the src/main/scala/de/fosd/typ
 ```
 
 Make sure toybox is in the gitbusybox directory
-Then rerun sbt mkrun and run ./prepreGit.sh it should not work since KBuildMiner should fail but the parser runs and still generates the header.h file we are looking for. Then simply copy over the resulting header.h file and move it into the generated folder and rename it to config.h to extract the filelist use the findCFiles.py tool and redirect the output to generate the filelist. This also generated a file called headerLocations.txt run extractLocations.py program to generate the list of header locations to use with runVAA.sh
+Then rerun sbt mkrun and run ./prepreGit.sh it should not work since KBuildMiner should fail but the parser runs and still generates the header.h file we are looking for. Then simply copy over the resulting header.h file and move it into the generated folder and rename it to config.h to extract the filelist use the findCFiles.py tool and redirect the output to generate the filelist. This also generated a file called headerLocations.txt run extractLocations.py program to generate the list of header locations to use with runVAA.sh. To have runVAA.sh just use the busybox one and modify the locations of the -I flags accordingly to the results of the headerSet.txt file also be sure to include the diamacs file for toybox. After doing all that you should be able to run the partial analysis successfully.
 
 
 ## How to extract the results
