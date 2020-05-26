@@ -101,8 +101,8 @@
 5. Go to the directory axtls-code and run ```make allyesconfig```
 6. Run ```sudo apt install liblua5.3-dev``` to install lua headers needed for make
 7. Run ```make``` there will be some problems due to missing C# files but ignore them
-8. Run ```git clone https://github.com/alexarmstrongutd/TypeChef-Tools.git``` in the main parent directory
-9. Copy HeaderCreator.py over into axtls-code directory
+8. Clone this repo in the main parent directory
+9. Copy HeaderCreator.py from the tools directory over into axtls-code directory
 10. Run ```python3 HeaderCreator.py``` to create openfeatures.txt and header.h
 11. Append the contents of openfeatures.txt into the openfeatures file in the GNUCHeaders Directory
 12. Run ```wget https://github.com/paulgazz/kconfig_case_studies/raw/master/cases/axtls_2_1_4/kconfig.dimacs``` for the dimacs file
@@ -133,8 +133,7 @@ Then rerun sbt mkrun and run ./prepreGit.sh it should not work since KBuildMiner
 
 
 ## How to extract the results
-1. Be sure to clone the Tools repo if you haven't already https://github.com/alexarmstrongutd/TypeChef-Tools
-1. Copy the cleanVAA.sh, extractScript.sh, ResultStats.py and both parser.py files from the Tools repo into the directory with runVAA.sh
+1. Copy the cleanVAA.sh, extractScript.sh, ResultStats.py and both parser.py files from the Tools directory in this repo into the directory with runVAA.sh
 2. Run ```./cleanVAA.sh``` to clear any results first before testing
 3. Run the appropriate runVAA.sh file on your program
 4. Run ```extractScript.sh <Directory Name>``` Directory name should be a non existant directory
