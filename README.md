@@ -117,6 +117,20 @@
 ## Notes Regarding Toybox
 While the header.h file can be created by modifying the source code in the Busybox analysis folder the program does not use C preprocessor ifs and instead uses the base if statements using macros defined using config options which cannot be understood by TypeChef. Future work requires there be explicit #if options in the source files.
 
+To generate the header.h file specifically modify the src/main/scala/de/fosd/typechef/busybox/KconfigReader.scala file in the busybox analysis directory and change the value of outheader at around line 73 to this
+``` 
+           outHeader += "#ifdef CONFIG_" + flag + "\n" +
+                "   #define CFG_" + flag + " 1\n" +
+                "   #define " + "USE" + "_" + flag + "(...) __VA_ARGS__\n" +
+                "#else\n" +
+                "   #define CFG_" + flag + " 0\n" +
+                "   #define " + "USE" + "_" + flag + "(...)\n" +
+                "#endif\n\n"
+```
+
+Make sure toybox is in the gitbusybox directory
+Then rerun sbt mkrun and run ./prepreGit.sh it should not work since KBuildMiner should fail but the parser runs and still generates the header.h file we are looking for. Then simply copy over the resulting header.h file and move it into the generated folder and rename it to config.h to extract the filelist use the findCFiles.py tool and redirect the output to generate the filelist. This also generated a file called headerLocations.txt run extractLocations.py program to generate the list of header locations to use with runVAA.sh
+
 
 ## How to extract the results
 1. Be sure to clone the Tools repo if you haven't already https://github.com/alexarmstrongutd/TypeChef-Tools
