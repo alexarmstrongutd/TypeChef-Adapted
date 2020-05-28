@@ -30,3 +30,7 @@ test_parser.py is a wrapper around parser.py which parses all the report files a
 ## ResultStats
 
 This file produces the stats of the errors reported in the files. It does need an argument which is the Json file produces by the output of test_parser.py
+
+## CompareResults
+
+This file takes 2 arguments to json formatted files to compare errors based on line and filename and reports the number of differences in them
