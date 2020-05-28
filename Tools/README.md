@@ -33,4 +33,4 @@ This file produces the stats of the errors reported in the files. It does need a
 
 ## CompareResults
 
-This file takes 2 arguments to json formatted files to compare errors based on line and filename and reports the number of differences in them
+This file takes 3 command line arguements the first **MUST** be the typechef json format and the second is the tool to compare the 3rd arguement is the name of the CSV file to output the results of common warnings. The # of common and different warnings are printed to stdout as well
