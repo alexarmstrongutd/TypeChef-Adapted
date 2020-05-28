@@ -116,6 +116,9 @@
 
 
 ## Notes Regarding Toybox
+
+Prebuilt Toybox setup: https://github.com/alexarmstrongutd/Toybox
+
 While the header.h file can be created by modifying the source code in the Busybox analysis folder the program does not use C preprocessor ifs and instead uses the base if statements using macros defined using config options which cannot be understood by TypeChef. Future work requires there be explicit #if options in the source files.
 
 To generate the header.h file specifically modify the src/main/scala/de/fosd/typechef/busybox/KconfigReader.scala file in the busybox analysis directory and change the value of outheader at around line 73 to this
