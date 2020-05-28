@@ -62,8 +62,9 @@
 30. Take the contents of features file in the gitbusybox folder and append it to the openfeatures.txt file in the GNUCHeader file
 31. Now create a file called runVAA.sh and copy the contents from this pastebin into the script https://pastebin.com/tDbvu2xW
 32. Delete the last line and uncomment out the second to last line regarding to invoking typechef.sh
-33. Run ```chmod +x runVAA.sh``` and run the script
-34. The script should now work instructions on how to extract results are later
+33. Be sure to run ```make allnoconfig``` and ```make``` to generate all header files needed for the analysis
+34. Run ```chmod +x runVAA.sh``` and run the script
+35. The script should now work instructions on how to extract results are later
 
 ## Axtls-VAA header setup
 **Note you can skip this step if you opted for the repo header build**
