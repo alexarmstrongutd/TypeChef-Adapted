@@ -99,9 +99,9 @@
 3. Either do the above steps or run ```git clone https://github.com/alexarmstrongutd/Axtls-Headers.git```
 4. If you cloned the repo move the contents over into the GNUCHeader folder
 5. Go to the directory axtls-code and run ```make allyesconfig```
-6. Run ```sudo apt install liblua5.3-dev``` to install lua headers needed for make
+6. Run ```sudo apt install liblua5.3-dev``` and ```sudo apt install lua5.3``` to install lua headers needed for make
 7. Run ```sudo apt install swig``` to install swig to run make
-7. Run ```make``` there will be some problems due to missing C# files but ignore them
+7. Run ```make -I /usr/lib/jvm/java-8-openjdk-amd64/include/ -I ../TypeChef-GNUCHeader/perl-5.30.2/``` there will be some problems due to missing C# files but ignore them and replace java with whatever jvm you wish and if you installed perl manually that will work too
 8. Clone this repo in the main parent directory
 9. Copy HeaderCreator.py from the tools directory over into axtls-code directory
 10. Run ```python3 HeaderCreator.py``` to create openfeatures.txt and header.h
