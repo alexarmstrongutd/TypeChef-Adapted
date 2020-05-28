@@ -1,0 +1,22 @@
+Double Free -> Memory Error (found by Clang)
+Line 2020 of MallocChecker.cpp in the static analyzer source
+
+
+non return in non void function -> Undef_Behavior (unsure if programs can actually detect this though)
+Undefined behavior can result in returning void in a non void function which may crash the program.
+
+Dangling Switch -> No Mapping
+
+Case termination -> No Mapping
+
+Dead Store -> Dead Store (found by Clang)
+No explanation needed.
+
+Error Handling of Standary library functions -> No Mapping
+
+Free Static Memory -> Memory Error (found by Clang)
+https://clang.llvm.org/docs/analyzer/checkers.html#unix-malloc-c it tracks memory that is created with malloc
+Line 2104 of MallocChecker.cpp closely matches
+
+Uninitialized Memory -> Uninitialized_Val (found by Infer)
+No explanation needed.
