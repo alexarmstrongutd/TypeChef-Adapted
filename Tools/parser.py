@@ -116,7 +116,10 @@ def main():
                 line = line.replace(";","")
                 line = line[:-1]
                 #print(line)
-                line = line[:line.index(']')+1] + line[line.index('@'):]
+                if line[line.index('@')+1] == "'" and line[line.index('@')-1] == "'":
+                    line = line[:line.index(']')+1] + line[line.index('@',line.index('@')):]
+                else:
+                    line = line[:line.index(']')+1] + line[line.index('@'):]
                 line = line.replace("[","")
                 line = line.replace("]"," ")
                 line = line.replace("(","",1)
