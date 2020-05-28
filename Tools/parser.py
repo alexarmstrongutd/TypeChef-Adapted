@@ -117,7 +117,7 @@ def main():
                 line = line[:-1]
                 #print(line)
                 if line[line.index('@')+1] == "'" and line[line.index('@')-1] == "'":
-                    line = line[:line.index(']')+1] + line[line.index('@',line.index('@')):]
+                    line = line[:line.index(']')+1] + line[line.index('@',line.index('@')+1):]
                 else:
                     line = line[:line.index(']')+1] + line[line.index('@'):]
                 line = line.replace("[","")
