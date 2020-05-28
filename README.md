@@ -100,6 +100,7 @@
 4. If you cloned the repo move the contents over into the GNUCHeader folder
 5. Go to the directory axtls-code and run ```make allyesconfig```
 6. Run ```sudo apt install liblua5.3-dev``` to install lua headers needed for make
+7. Run ```sudo apt install swig``` to install swig to run make
 7. Run ```make``` there will be some problems due to missing C# files but ignore them
 8. Clone this repo in the main parent directory
 9. Copy HeaderCreator.py from the tools directory over into axtls-code directory
