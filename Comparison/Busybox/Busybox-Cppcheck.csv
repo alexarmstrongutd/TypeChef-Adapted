@@ -1,0 +1,14 @@
+Filename, Line #, TypeChef-Type, .\busybox_1_28_0_cppcheck.json-Type
+chpst.c, 402, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 389, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 379, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 358, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 349, Uninitialized memory,  (error) Uninitialized variable
+dhcpc.c, 1339, Check stdlibfunc return,  (error) Uninitialized variable
+chpst.c, 438, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 470, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 429, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 464, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 411, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 420, Uninitialized memory,  (error) Uninitialized variable
+chpst.c, 367, Uninitialized memory,  (error) Uninitialized variable

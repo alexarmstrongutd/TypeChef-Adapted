@@ -1,0 +1,2343 @@
+Filename, Line #, TypeChef-Type, .\busybox_1_28_0_cbmc.json-Type
+ash.c, 3726, Uninitialized memory, pointer dereference
+inetd.c, 918, Check stdlibfunc return, pointer dereference
+vi.c, 942, Xfree, assertion
+route.c, 646, Xfree, assertion
+login.c, 168, Check stdlibfunc return, assertion
+expr.c, 289, Uninitialized memory, overflow
+fbset.c, 301, Uninitialized memory, overflow
+ps.c, 786, Uninitialized memory, pointer dereference
+vi.c, 831, Check stdlibfunc return, overflow
+mpstat.c, 652, Check stdlibfunc return, assertion
+mount.c, 663, Xfree, assertion
+ash.c, 12213, Check stdlibfunc return, overflow
+od_bloaty.c, 1014, Uninitialized memory, array bounds
+mdev.c, 703, Uninitialized memory, overflow
+mount.c, 1318, Uninitialized memory, overflow
+sendmail.c, 131, Xfree, assertion
+lineedit.c, 2275, Uninitialized memory, pointer dereference
+diff.c, 486, Uninitialized memory, array bounds
+hush.c, 10322, Dead store, pointer dereference
+nmeter.c, 592, Uninitialized memory, pointer dereference
+sestatus.c, 142, Uninitialized memory, array bounds
+iostat.c, 501, Uninitialized memory, pointer dereference
+tls_pstm.c, 288, Dead store, pointer dereference
+mkfs_ext2.c, 416, Dead store, overflow
+compress.c, 529, Uninitialized memory, overflow
+devfsd.c, 1046, Uninitialized memory, overflow
+get_header_tar.c, 390, Case termination, pointer dereference
+lzop.c, 933, Uninitialized memory, pointer dereference
+ifplugd.c, 549, Uninitialized memory, overflow
+hush.c, 5717, Dead store, pointer dereference
+mdev.c, 834, Uninitialized memory, overflow
+du.c, 230, Check stdlibfunc return, pointer dereference
+get_header_ar.c, 103, Uninitialized memory, pointer dereference
+getty.c, 518, Case termination, pointer dereference
+realpath.c, 44, Double free, assertion
+decompress_gunzip.c, 352, Uninitialized memory, array bounds
+mdev.c, 644, Check stdlibfunc return, pointer dereference
+rx.c, 109, Uninitialized memory, overflow
+fdisk_sun.c, 433, Uninitialized memory, overflow
+find.c, 817, Case termination, pointer dereference
+less.c, 1630, Check stdlibfunc return, pointer dereference
+ntpd.c, 2288, Uninitialized memory, pointer dereference
+decompress_bunzip2.c, 323, Uninitialized memory, array bounds
+iproute.c, 162, Uninitialized memory, overflow
+sed.c, 1609, Double free, assertion
+seq.c, 63, Case termination, pointer dereference
+arp.c, 455, Uninitialized memory, pointer dereference
+inotifyd.c, 193, Uninitialized memory, pointer dereference
+hush.c, 8507, Xfree, assertion
+ps.c, 772, Uninitialized memory, pointer dereference
+lzo1x_9x.c, 267, Dead store, pointer dereference
+mdev.c, 843, Uninitialized memory, overflow
+executable.c, 44, Check stdlibfunc return, overflow
+mount.c, 1300, Uninitialized memory, overflow
+sendmail.c, 125, Xfree, assertion
+passwd.c, 96, Xfree, assertion
+wget.c, 1039, Double free, assertion
+patch.c, 94, Dead store, pointer dereference
+libnetlink.c, 345, Dead store, pointer dereference
+hush.c, 8270, Xfree, assertion
+popmaildir.c, 277, Xfree, assertion
+ps.c, 439, Check stdlibfunc return, overflow
+ntpd.c, 1232, Uninitialized memory, array bounds
+decompress_gunzip.c, 432, Uninitialized memory, array bounds
+verror_msg.c, 65, Check stdlibfunc return, overflow
+svlogd.c, 650, Uninitialized memory, pointer dereference
+slattach.c, 177, Uninitialized memory, overflow
+arp.c, 462, Uninitialized memory, pointer dereference
+dhcpc.c, 1339, Check stdlibfunc return, overflow
+tls_pstm.c, 1155, Dead store, pointer dereference
+ipneigh.c, 132, Uninitialized memory, overflow
+hush.c, 6740, Xfree, assertion
+init.c, 968, Xfree, assertion
+get_header_ar.c, 85, Xfree, assertion
+awk.c, 660, Uninitialized memory, overflow
+vi.c, 2273, Xfree, assertion
+fdisk_osf.c, 794, Uninitialized memory, overflow
+lineedit.c, 1285, Xfree, assertion
+ifconfig.c, 499, Uninitialized memory, pointer dereference
+fdisk_sun.c, 447, Uninitialized memory, array bounds
+acpid.c, 236, Uninitialized memory, pointer dereference
+blocksort.c, 690, Uninitialized memory, array bounds
+devfsd.c, 1100, Case termination, overflow
+hush.c, 8849, Check stdlibfunc return, overflow
+cpio.c, 332, Double free, assertion
+arping.c, 127, Uninitialized memory, overflow
+dump.c, 189, Check stdlibfunc return, pointer dereference
+dpkg.c, 710, Xfree, assertion
+svlogd.c, 309, Case termination, pointer dereference
+decompress_uncompress.c, 309, Xfree, assertion
+ls.c, 619, Xfree, assertion
+diff.c, 621, Uninitialized memory, overflow
+awk.c, 2400, Uninitialized memory, overflow
+route.c, 198, Check stdlibfunc return, overflow
+tunctl.c, 95, Uninitialized memory, overflow
+httpd.c, 2018, Xfree, assertion
+ifplugd.c, 467, Uninitialized memory, pointer dereference
+ipaddress.c, 124, Uninitialized memory, overflow
+popmaildir.c, 197, Xfree, assertion
+date.c, 344, Check stdlibfunc return, overflow
+fdisk_sun.c, 420, Uninitialized memory, array bounds
+powertop.c, 492, Uninitialized memory, overflow
+hush.c, 9844, Xfree, assertion
+diff.c, 506, Uninitialized memory, pointer dereference
+ip.c, 379, Dead store, overflow
+lineedit.c, 1403, Double free, pointer dereference
+modprobe-small.c, 349, Check stdlibfunc return, pointer dereference
+powertop.c, 776, Uninitialized memory, pointer dereference
+dump.c, 180, Check stdlibfunc return, pointer dereference
+inetd.c, 1064, Uninitialized memory, pointer dereference
+modprobe-small.c, 598, Xfree, assertion
+uuencode.c, 209, Uninitialized memory, overflow
+ipaddress.c, 303, Uninitialized memory, pointer dereference
+tar.c, 306, Uninitialized memory, overflow
+powertop.c, 750, Uninitialized memory, overflow
+dump.c, 568, Uninitialized memory, overflow
+less.c, 1377, Uninitialized memory, overflow
+ipaddress.c, 117, Uninitialized memory, overflow
+mpstat.c, 798, Uninitialized memory, pointer dereference
+mount.c, 1281, Check stdlibfunc return, overflow
+losetup.c, 93, Xfree, assertion
+iproute.c, 87, Uninitialized memory, overflow
+ed.c, 754, Xfree, assertion
+mail.c, 153, Uninitialized memory, overflow
+inetd.c, 861, Uninitialized memory, pointer dereference
+nmeter.c, 567, Uninitialized memory, overflow
+dnsd.c, 145, Uninitialized memory, overflow
+lpd.c, 216, Check stdlibfunc return, overflow
+ubi_tools.c, 227, Uninitialized memory, overflow
+man.c, 293, Uninitialized memory, overflow
+powertop.c, 785, Uninitialized memory, overflow
+devfsd.c, 857, Uninitialized memory, array bounds
+diff.c, 654, Uninitialized memory, overflow
+lspci.c, 74, Uninitialized memory, overflow
+ntpd.c, 1221, Uninitialized memory, array bounds
+expand.c, 153, Xfree, assertion
+modprobe.c, 355, Uninitialized memory, pointer dereference
+wc.c, 139, Uninitialized memory, overflow
+procps.c, 383, Check stdlibfunc return, overflow
+mdev.c, 410, Uninitialized memory, overflow
+lineedit.c, 2206, Uninitialized memory, overflow
+mktemp.c, 77, Check stdlibfunc return, pointer dereference
+xfuncs_printf.c, 314, Check stdlibfunc return, assertion
+shuf.c, 93, Check stdlibfunc return, overflow
+wget.c, 749, Xfree, assertion
+dhcpc.c, 1020, Uninitialized memory, overflow
+copy_file.c, 205, Xfree, assertion
+sendmail.c, 423, Check stdlibfunc return, overflow
+ubi_tools.c, 250, Uninitialized memory, overflow
+find.c, 679, Xfree, overflow
+devfsd.c, 1655, Uninitialized memory, overflow
+mount.c, 721, Xfree, assertion
+tls.c, 495, Uninitialized memory, overflow
+iproute.c, 391, Uninitialized memory, overflow
+arp.c, 482, Check stdlibfunc return, assertion
+fdisk.c, 2398, Uninitialized memory, array bounds
+syslogd.c, 843, Uninitialized memory, pointer dereference
+get_header_cpio.c, 169, Double free, assertion
+nmeter.c, 775, Uninitialized memory, pointer dereference
+mount.c, 1376, Case termination, overflow
+powertop.c, 394, Check stdlibfunc return, assertion
+uidgid_get.c, 96, Check stdlibfunc return, overflow
+data_extract_to_command.c, 95, Uninitialized memory, pointer dereference
+tcpudp.c, 352, Dead store, pointer dereference
+lineedit.c, 1750, Dead store, pointer dereference
+mount.c, 1673, Uninitialized memory, overflow
+httpd.c, 1292, Uninitialized memory, pointer dereference
+hush.c, 7022, Xfree, assertion
+common.c, 605, Uninitialized memory, overflow
+inetd.c, 847, Check stdlibfunc return, overflow
+awk.c, 2082, Check stdlibfunc return, overflow
+ll_map.c, 79, Uninitialized memory, overflow
+syslogd.c, 755, Uninitialized memory, pointer dereference
+powertop.c, 807, Uninitialized memory, pointer dereference
+vi.c, 3358, Check stdlibfunc return, overflow
+ntpd.c, 1267, Uninitialized memory, array bounds
+nmeter.c, 282, Uninitialized memory, overflow
+getsebool.c, 63, Uninitialized memory, pointer dereference
+decompress_bunzip2.c, 492, Uninitialized memory, array bounds
+unicode.c, 57, Check stdlibfunc return, pointer dereference
+fdisk_sun.c, 226, Check stdlibfunc return, assertion
+modprobe-small.c, 473, Xfree, assertion
+netstat.c, 441, Uninitialized memory, overflow
+hfs.c, 242, Uninitialized memory, overflow
+comm.c, 84, Uninitialized memory, overflow
+mount.c, 786, Xfree, assertion
+lineedit.c, 2220, Uninitialized memory, overflow
+get_header_cpio.c, 31, Uninitialized memory, pointer dereference
+stat.c, 428, Check stdlibfunc return, overflow
+head.c, 124, Double free, pointer dereference
+ash.c, 12897, Check stdlibfunc return, overflow
+xz_dec_lzma2.c, 1047, Case termination, pointer dereference
+wget.c, 622, Check stdlibfunc return, pointer dereference
+nc_bloaty.c, 470, Xfree, assertion
+ftpd.c, 513, Xfree, assertion
+lzo1x_9x.c, 869, Dead store, overflow
+ash.c, 7174, Check stdlibfunc return, overflow
+unicode.c, 81, Check stdlibfunc return, pointer dereference
+stty.c, 1537, Uninitialized memory, overflow
+fdisk.c, 2497, Uninitialized memory, pointer dereference
+ntpd.c, 1701, Uninitialized memory, overflow
+tr.c, 181, Xfree, assertion
+decompress_gunzip.c, 913, Uninitialized memory, overflow
+ls.c, 947, Xfree, assertion
+inetd.c, 616, Uninitialized memory, pointer dereference
+ll_addr.c, 45, Check stdlibfunc return, overflow
+traceroute.c, 1208, Xfree, assertion
+xargs.c, 452, Double free, assertion
+parse_config.c, 92, Check stdlibfunc return, pointer dereference
+mount.c, 2101, Xfree, assertion
+httpd.c, 2359, Check stdlibfunc return, pointer dereference
+mpstat.c, 628, Check stdlibfunc return, assertion
+head.c, 134, Double free, assertion
+ifenslave.c, 251, Uninitialized memory, overflow
+ash.c, 5270, Uninitialized memory, pointer dereference
+iprule.c, 185, Dead store, pointer dereference
+awk.c, 1763, Uninitialized memory, overflow
+vi.c, 1143, Uninitialized memory, overflow
+expand.c, 189, Dead store, overflow
+decompress_gunzip.c, 463, Uninitialized memory, overflow
+cpio.c, 229, Xfree, assertion
+ifplugd.c, 610, Uninitialized memory, overflow
+sleep.c, 127, Uninitialized memory, NaN
+iostat.c, 157, Check stdlibfunc return, assertion
+bbunzip.c, 174, Dead store, overflow
+crontab.c, 62, Check stdlibfunc return, pointer dereference
+diff.c, 900, Uninitialized memory, pointer dereference
+ntpd.c, 2336, Uninitialized memory, overflow
+awk.c, 2664, Case termination, overflow
+nmeter.c, 522, Uninitialized memory, array bounds
+lpd.c, 189, Check stdlibfunc return, overflow
+i2c_tools.c, 642, Dead store, overflow
+powertop.c, 135, Double free, pointer dereference
+devfsd.c, 890, Uninitialized memory, pointer dereference
+top.c, 312, Check stdlibfunc return, assertion
+ftpd.c, 329, Xfree, assertion
+makedevs.c, 229, Uninitialized memory, overflow
+decompress_bunzip2.c, 519, Uninitialized memory, array bounds
+ls.c, 1239, Xfree, assertion
+cut.c, 190, Xfree, assertion
+iprule.c, 67, Uninitialized memory, overflow
+compress.c, 395, Uninitialized memory, array bounds
+pgrep.c, 228, Xfree, assertion
+recursive_action.c, 147, Xfree, assertion
+ash.c, 2279, Xfree, assertion
+start_stop_daemon.c, 226, Uninitialized memory, overflow
+ntpd.c, 2343, Uninitialized memory, overflow
+nmeter.c, 484, Uninitialized memory, overflow
+modprobe-small.c, 846, Xfree, assertion
+vi.c, 1232, Uninitialized memory, overflow
+hush.c, 2346, Check stdlibfunc return, overflow
+mpstat.c, 514, Check stdlibfunc return, assertion
+tls_pstm.c, 573, Dead store, pointer dereference
+bootchartd.c, 395, Uninitialized memory, overflow
+ash.c, 5272, Uninitialized memory, pointer dereference
+fbset.c, 278, Uninitialized memory, overflow
+hush.c, 8660, Xfree, assertion
+vi.c, 2432, Xfree, assertion
+ifupdown.c, 1513, Xfree, assertion
+dos2unix.c, 98, Check stdlibfunc return, assertion
+diff.c, 549, Uninitialized memory, overflow
+crond.c, 471, Xfree, assertion
+comm.c, 112, Check stdlibfunc return, assertion
+unicode.c, 164, Uninitialized memory, overflow
+lineedit.c, 2248, Uninitialized memory, overflow
+microcom.c, 89, Xfree, assertion
+pwd_grp.c, 289, Uninitialized memory, pointer dereference
+pwd_grp.c, 244, Check stdlibfunc return, assertion
+getty.c, 494, Case termination, pointer dereference
+grep.c, 672, Check stdlibfunc return, assertion
+netstat.c, 633, Uninitialized memory, overflow
+wget.c, 1110, Uninitialized memory, pointer dereference
+inetd.c, 740, Check stdlibfunc return, overflow
+sestatus.c, 149, Uninitialized memory, array bounds
+patch.c, 568, Xfree, assertion
+parse_config.c, 216, Dead store, pointer dereference
+ls.c, 893, Dead store, overflow
+hexedit.c, 171, Uninitialized memory, overflow
+mpstat.c, 958, Double free, pointer dereference
+depmod.c, 190, Check stdlibfunc return, pointer dereference
+arp.c, 114, Uninitialized memory, overflow
+diff.c, 701, Xfree, assertion
+ash.c, 1568, Xfree, assertion
+svlogd.c, 625, Uninitialized memory, overflow
+login.c, 555, Uninitialized memory, pointer dereference
+ifconfig.c, 472, Xfree, assertion
+lsof.c, 70, Xfree, assertion
+mdev.c, 341, Check stdlibfunc return, overflow
+sendmail.c, 159, Check stdlibfunc return, pointer dereference
+passwd.c, 66, Xfree, assertion
+ether-wake.c, 283, Uninitialized memory, overflow
+vi.c, 3664, Check stdlibfunc return, overflow
+inetd.c, 786, Uninitialized memory, pointer dereference
+patch.c, 567, Xfree, assertion
+setfiles.c, 454, Xfree, assertion
+print_numbered_lines.c, 25, Xfree, assertion
+i2c_tools.c, 1171, Uninitialized memory, pointer dereference
+ls.c, 884, Dead store, pointer dereference
+wget.c, 984, Dead store, pointer dereference
+less.c, 374, Double free, pointer dereference
+fdisk_sun.c, 191, Uninitialized memory, overflow
+get_last_path_component.c, 13, Check stdlibfunc return, overflow
+interface.c, 582, Check stdlibfunc return, assertion
+inotifyd.c, 220, Xfree, assertion
+ipaddress.c, 351, Uninitialized memory, overflow
+getsebool.c, 65, Uninitialized memory, pointer dereference
+hexedit.c, 406, Case termination, pointer dereference
+httpd.c, 1993, Uninitialized memory, pointer dereference
+ipneigh.c, 166, Uninitialized memory, pointer dereference
+i2c_tools.c, 203, Uninitialized memory, overflow
+scriptreplay.c, 53, Check stdlibfunc return, assertion
+ash.c, 9342, Double free, pointer dereference
+getopt32.c, 509, Uninitialized memory, pointer dereference
+hush.c, 4586, Check stdlibfunc return, overflow
+wget.c, 661, Check stdlibfunc return, overflow
+dhcpc.c, 1669, Case termination, pointer dereference
+ifupdown.c, 913, Xfree, assertion
+awk.c, 2144, Xfree, assertion
+hush.c, 2127, Check stdlibfunc return, overflow
+unpack_ar_archive.c, 13, Uninitialized memory, pointer dereference
+fdisk_sgi.c, 558, Uninitialized memory, array bounds
+vi.c, 2109, Check stdlibfunc return, overflow
+nslookup.c, 140, Xfree, assertion
+vi.c, 1227, Uninitialized memory, pointer dereference
+mpstat.c, 535, Check stdlibfunc return, assertion
+svlogd.c, 673, Check stdlibfunc return, pointer dereference
+fbsplash.c, 433, Uninitialized memory, overflow
+lsmod.c, 109, Uninitialized memory, pointer dereference
+mail.c, 55, Uninitialized memory, overflow
+vi.c, 4167, Uninitialized memory, overflow
+powertop.c, 854, Uninitialized memory, overflow
+mount.c, 665, Check stdlibfunc return, assertion
+umount.c, 237, Double free, pointer dereference
+get_header_ar.c, 112, Uninitialized memory, overflow
+devfsd.c, 655, Case termination, pointer dereference
+last_fancy.c, 257, Double free, pointer dereference
+ash.c, 9351, Double free, assertion
+dpkg.c, 514, Xfree, assertion
+dpkg.c, 1249, Xfree, assertion
+ar.c, 148, Uninitialized memory, pointer dereference
+devfsd.c, 636, Uninitialized memory, pointer dereference
+nc_bloaty.c, 404, Double free, assertion
+crond.c, 558, Uninitialized memory, pointer dereference
+nmeter.c, 606, Uninitialized memory, array bounds
+switch_root.c, 139, Uninitialized memory, overflow
+sed.c, 720, Double free, assertion
+inotifyd.c, 125, Check stdlibfunc return, overflow
+devfsd.c, 1048, Uninitialized memory, overflow
+rev.c, 106, Double free, assertion
+ntpd.c, 1324, Uninitialized memory, array bounds
+hush.c, 3065, Uninitialized memory, overflow
+hash_md5_sha.c, 535, Uninitialized memory, array bounds
+expr.c, 294, Uninitialized memory, pointer dereference
+arp.c, 466, Uninitialized memory, overflow
+xreadlink.c, 86, Xfree, assertion
+route.c, 376, Check stdlibfunc return, overflow
+ash.c, 7334, Check stdlibfunc return, overflow
+xz_dec_lzma2.c, 972, Case termination, pointer dereference
+httpd.c, 728, Uninitialized memory, overflow
+init.c, 297, Check stdlibfunc return, pointer dereference
+mdev.c, 702, Uninitialized memory, overflow
+rfkill.c, 117, Uninitialized memory, overflow
+nmeter.c, 443, Uninitialized memory, pointer dereference
+utils.c, 30, Check stdlibfunc return, assertion
+fdisk_sgi.c, 540, Uninitialized memory, array bounds
+compress.c, 528, Uninitialized memory, overflow
+ntpd.c, 2121, Xfree, assertion
+ntpd.c, 1694, Uninitialized memory, overflow
+progress.c, 155, Uninitialized memory, pointer dereference
+lineedit.c, 1487, Check stdlibfunc return, assertion
+modprobe-small.c, 956,  Cfg innnvoid function, pointer dereference
+uudecode.c, 224, Check stdlibfunc return, pointer dereference
+inetd.c, 1675, Uninitialized memory, overflow
+runsv.c, 196, Uninitialized memory, overflow
+unzip.c, 283, Xfree, assertion
+dpkg.c, 609, Uninitialized memory, pointer dereference
+ifplugd.c, 597, Check stdlibfunc return, pointer dereference
+fsck.c, 1064, Check stdlibfunc return, pointer dereference
+get_header_ar.c, 102, Uninitialized memory, pointer dereference
+unzip.c, 839, Uninitialized memory, overflow
+dpkg.c, 528, Double free, pointer dereference
+mdev.c, 1096, Check stdlibfunc return, pointer dereference
+fdisk_sun.c, 432, Uninitialized memory, overflow
+find.c, 816, Case termination, pointer dereference
+devfsd.c, 626, Uninitialized memory, overflow
+diff.c, 494, Uninitialized memory, array bounds
+ntpd.c, 1355, Uninitialized memory, array bounds
+getopt32.c, 353, Uninitialized memory, overflow
+ash.c, 7638, Dead store, overflow
+devmem.c, 77, Dead store, pointer dereference
+syslogd.c, 730, Uninitialized memory, pointer dereference
+ash.c, 3743, Dead store, pointer dereference
+svlogd.c, 652, Uninitialized memory, overflow
+hexedit.c, 313, Case termination, overflow
+devfsd.c, 805, Uninitialized memory, pointer dereference
+wc.c, 180, Uninitialized memory, overflow
+lineedit.c, 1168, Check stdlibfunc return, pointer dereference
+unzip.c, 846, Uninitialized memory, overflow
+open_transformer.c, 323, Xfree, assertion
+less.c, 1622, Check stdlibfunc return, pointer dereference
+modprobe-small.c, 217, Uninitialized memory, overflow
+common.c, 575, Uninitialized memory, overflow
+ifupdown.c, 450, Xfree, assertion
+dpkg.c, 1584, Xfree, assertion
+blocksort.c, 348, Uninitialized memory, array bounds
+diff.c, 754, Uninitialized memory, overflow
+ps.c, 438, Check stdlibfunc return, overflow
+get_header_tar.c, 401, Case termination, pointer dereference
+fbsplash.c, 429, Uninitialized memory, pointer dereference
+cut.c, 316, Xfree, assertion
+vi.c, 4131, Check stdlibfunc return, overflow
+crond.c, 401, Double free, pointer dereference
+mpstat.c, 476, Uninitialized memory, pointer dereference
+login.c, 513, Xfree, assertion
+acpid.c, 235, Uninitialized memory, pointer dereference
+blocksort.c, 691, Uninitialized memory, array bounds
+losetup.c, 72, Xfree, assertion
+man.c, 161, Xfree, assertion
+readprofile.c, 229, Uninitialized memory, overflow
+ntpd.c, 910, Xfree, assertion
+decompress_bunzip2.c, 813, Uninitialized memory, overflow
+sed.c, 185, Double free, pointer dereference
+tls_pstm.c, 270, Uninitialized memory, pointer dereference
+ls.c, 802, Double free, assertion
+sv.c, 504, Check stdlibfunc return, pointer dereference
+sendmail.c, 322, Check stdlibfunc return, pointer dereference
+decompress_uncompress.c, 310, Xfree, assertion
+httpd.c, 1940, Check stdlibfunc return, overflow
+hush.c, 9446, Xfree, assertion
+dhcpd.c, 327, Xfree, pointer dereference
+uuencode.c, 203, Uninitialized memory, overflow
+svlogd.c, 563, Check stdlibfunc return, pointer dereference
+httpd.c, 708, Uninitialized memory, pointer dereference
+hush.c, 7137, Xfree, assertion
+wget.c, 720, Uninitialized memory, overflow
+fdisk_sun.c, 423, Uninitialized memory, array bounds
+readprofile.c, 236, Uninitialized memory, NaN
+xconnect.c, 278, Uninitialized memory, overflow
+install.c, 221, Double free, assertion
+i2c_tools.c, 1184, Check stdlibfunc return, assertion
+fdisk.c, 2522, Uninitialized memory, array bounds
+man.c, 299, Xfree, assertion
+awk.c, 1757, Uninitialized memory, overflow
+nsenter.c, 168, Uninitialized memory, overflow
+inetd.c, 1065, Uninitialized memory, pointer dereference
+ifupdown.c, 1497, Double free, assertion
+su.c, 159, Check stdlibfunc return, pointer dereference
+ed.c, 407, Check stdlibfunc return, pointer dereference
+inode_hash.c, 95, Xfree, assertion
+mdev.c, 801, Xfree, assertion
+tls_aes.c, 449, Uninitialized memory, pointer dereference
+ipaddress.c, 116, Uninitialized memory, overflow
+hush.c, 6304, Double free, assertion
+start_stop_daemon.c, 371, Xfree, assertion
+vi.c, 2147, Check stdlibfunc return, pointer
+dhcpc.c, 1718, Case termination, pointer dereference
+hdparm.c, 2053, Uninitialized memory, pointer dereference
+herror_msg.c, 16, Uninitialized memory, pointer dereference
+dpkg.c, 794, Check stdlibfunc return, assertion
+decompress_bunzip2.c, 511, Uninitialized memory, array bounds
+tail.c, 402, Xfree, assertion
+iostat.c, 128, Uninitialized memory, pointer dereference
+modprobe.c, 499, Xfree, assertion
+rtm_map.c, 95, Check stdlibfunc return, overflow
+get_header_ar.c, 67, Uninitialized memory, pointer dereference
+ash.c, 10868, Dead store, pointer dereference
+time.c, 226, Case termination, pointer dereference
+ifupdown.c, 1086, Uninitialized memory, pointer dereference
+mount.c, 1862, Dead store, pointer dereference
+copy_file.c, 204, Xfree, assertion
+fstrim.c, 77, Uninitialized memory, overflow
+devfsd.c, 1665, Uninitialized memory, overflow
+crond.c, 633, Check stdlibfunc return, overflow
+ifupdown.c, 1400, Check stdlibfunc return, overflow
+fdisk.c, 1473, Dead store, pointer dereference
+whois.c, 78, Check stdlibfunc return, assertion
+find.c, 678, Uninitialized memory, array bounds
+microcom.c, 140, Uninitialized memory, overflow
+ln.c, 119, Xfree, assertion
+nmeter.c, 288, Uninitialized memory, overflow
+lineedit.c, 1092, Check stdlibfunc return, overflow
+rx.c, 190, Uninitialized memory, array bounds
+top.c, 364, Uninitialized memory, pointer dereference
+fuser.c, 167, Check stdlibfunc return, assertion
+powertop.c, 767, Uninitialized memory, overflow
+diff.c, 1000, Uninitialized memory, array bounds
+devfsd.c, 1833, Uninitialized memory, overflow
+md5_sha1_sum.c, 347, Double free, assertion
+awk.c, 2128, Dead store, overflow
+wget.c, 1059, Uninitialized memory, overflow
+iptunnel.c, 320, Uninitialized memory, overflow
+common.c, 604, Uninitialized memory, overflow
+decompress_bunzip2.c, 286, Uninitialized memory, array bounds
+hush.c, 6179, Check stdlibfunc return, overflow
+init.c, 1133, Check stdlibfunc return, pointer dereference
+crond.c, 824, Uninitialized memory, pointer dereference
+verror_msg.c, 45, Uninitialized memory, overflow
+traceroute.c, 1037, Xfree, assertion
+unicode.c, 58, Check stdlibfunc return, pointer dereference
+dpkg.c, 1922, Double free, pointer dereference
+hostname.c, 195, Xfree, assertion
+od_bloaty.c, 629, Check stdlibfunc return, overflow
+date.c, 247, Uninitialized memory, overflow
+dhcpc.c, 582, Xfree, assertion
+ash.c, 9400, Uninitialized memory, pointer dereference
+losetup.c, 107, Uninitialized memory, overflow
+arping.c, 128, Uninitialized memory, overflow
+paste.c, 97, Xfree, assertion
+tail.c, 166, Uninitialized memory, overflow
+svlogd.c, 480, Uninitialized memory, pointer dereference
+unicode.c, 82, Check stdlibfunc return, pointer dereference
+iproute.c, 295, Uninitialized memory, overflow
+hfs.c, 157, Uninitialized memory, overflow
+decompress_gunzip.c, 453, Uninitialized memory, pointer dereference
+lineedit.c, 1543, Xfree, assertion
+od_bloaty.c, 1040, Uninitialized memory, array bounds
+ash.c, 4572, Uninitialized memory, pointer dereference
+which.c, 36, Check stdlibfunc return, pointer dereference
+diff.c, 521, Uninitialized memory, array bounds
+iplink.c, 144, Uninitialized memory, overflow
+wget.c, 329, Check stdlibfunc return, overflow
+ash.c, 6598, Case termination, pointer dereference
+start_stop_daemon.c, 284, Check stdlibfunc return, assertion
+awk.c, 2011, Check stdlibfunc return, overflow
+mpstat.c, 827, Check stdlibfunc return, assertion
+lineedit.c, 1328, Uninitialized memory, pointer dereference
+od_bloaty.c, 822, Uninitialized memory, overflow
+match_fstype.c, 33, Check stdlibfunc return, overflow
+mpstat.c, 629, Xfree, assertion
+nmeter.c, 528, Uninitialized memory, overflow
+xatonum_template.c, 63, Dead store, pointer dereference
+svlogd.c, 505, Uninitialized memory, overflow
+iproute.c, 1089, Uninitialized memory, pointer dereference
+ash.c, 3868, Double free, assertion
+ftpd.c, 327, Xfree, assertion
+shell_common.c, 278, Check stdlibfunc return, overflow
+svlogd.c, 756, Uninitialized memory, pointer dereference
+sort.c, 332, Xfree, pointer dereference
+wall.c, 59, Xfree, assertion
+ls.c, 1245, Xfree, assertion
+man.c, 127, Check stdlibfunc return, overflow
+md5_sha1_sum.c, 326, Xfree, assertion
+addgroup.c, 107, Xfree, assertion
+sv.c, 591, Case termination, overflow
+fdisk_sgi.c, 565, Uninitialized memory, array bounds
+fdisk_sun.c, 497, Uninitialized memory, overflow
+parse_config.c, 213, Dead store, pointer dereference
+common.c, 188, Uninitialized memory, pointer dereference
+nc.c, 186, Dead store, overflow
+nmeter.c, 523, Uninitialized memory, pointer dereference
+sestatus.c, 119, Uninitialized memory, array bounds
+ntpd.c, 484, Uninitialized memory, overflow
+mount.c, 551, Check stdlibfunc return, overflow
+tar.c, 747, Check stdlibfunc return, assertion
+runsv.c, 546, Uninitialized memory, overflow
+traceroute.c, 1048, Xfree, assertion
+stty.c, 866, Uninitialized memory, overflow
+fdisk.c, 3168, Case termination, pointer dereference
+lineedit.c, 2131, Uninitialized memory, overflow
+dos2unix.c, 104, Xfree, assertion
+iprule.c, 66, Uninitialized memory, overflow
+xfuncs_printf.c, 533, Uninitialized memory, pointer dereference
+crond.c, 489, Uninitialized memory, pointer dereference
+vi.c, 1461, Uninitialized memory, overflow
+unzip.c, 798, Xfree, assertion
+ll_addr.c, 60, Check stdlibfunc return, overflow
+xz_dec_stream.c, 633, Case termination, pointer dereference
+decompress_gunzip.c, 1145, Uninitialized memory, pointer dereference
+httpd.c, 789, Uninitialized memory, pointer dereference
+start_stop_daemon.c, 227, Uninitialized memory, overflow
+sort.c, 433, Check stdlibfunc return, pointer dereference
+pstree.c, 277, Uninitialized memory, overflow
+acpid.c, 211, Uninitialized memory, pointer dereference
+vi.c, 2121, Check stdlibfunc return, overflow
+crond.c, 602, Check stdlibfunc return, assertion
+rev.c, 113, Check stdlibfunc return, assertion
+common.c, 608, Uninitialized memory, overflow
+vi.c, 1239, Uninitialized memory, overflow
+bootchartd.c, 394, Uninitialized memory, overflow
+ash.c, 10253, Dead store, pointer dereference
+syslogd.c, 1079, Double free, pointer dereference
+nmeter.c, 840, Uninitialized memory, pointer dereference
+httpd.c, 2175, Check stdlibfunc return, overflow
+ifupdown.c, 1514, Xfree, assertion
+ipaddress.c, 178, Uninitialized memory, pointer dereference
+comm.c, 113, Check stdlibfunc return, assertion
+modprobe.c, 393, Check stdlibfunc return, overflow
+tar.c, 987, Check stdlibfunc return, overflow
+dpkg.c, 941, Check stdlibfunc return, assertion
+login.c, 576, Xfree, assertion
+vi.c, 2098, Check stdlibfunc return, overflow
+mpstat.c, 959, Double free, pointer dereference
+fsck.c, 491, Uninitialized memory, pointer dereference
+i2c_tools.c, 701, Uninitialized memory, overflow
+diff.c, 700, Xfree, assertion
+wc.c, 214, Uninitialized memory, overflow
+common.c, 372, Xfree, assertion
+runsv.c, 564, Uninitialized memory, overflow
+readprofile.c, 267, Uninitialized memory, overflow
+hush.c, 5759, Xfree, assertion
+ash.c, 5905, Check stdlibfunc return, pointer dereference
+arping.c, 325, Uninitialized memory, overflow
+awk.c, 2336, Xfree, assertion
+nmeter.c, 722, Uninitialized memory, overflow
+pgrep.c, 243, Xfree, assertion
+getopt.c, 263, Check stdlibfunc return, overflow
+hash_md5_sha.c, 729, Uninitialized memory, overflow
+hush.c, 4630, Uninitialized memory, pointer dereference
+dpkg.c, 1711, Check stdlibfunc return, assertion
+ash.c, 4636, Case termination, pointer dereference
+arp.c, 260, Uninitialized memory, overflow
+powertop.c, 447, Check stdlibfunc return, overflow
+less.c, 1584, Case termination, overflow
+top.c, 576, Uninitialized memory, overflow
+wget.c, 659, Check stdlibfunc return, overflow
+hush.c, 10634, Xfree, assertion
+fdisk_sgi.c, 544, Uninitialized memory, array bounds
+ether-wake.c, 230, Uninitialized memory, overflow
+crond.c, 584, Xfree, assertion
+lineedit.c, 293, Uninitialized memory, overflow
+lsmod.c, 87, Uninitialized memory, pointer dereference
+fsck.c, 662, Xfree, assertion
+ls.c, 1038, Xfree, assertion
+iproute.c, 255, Uninitialized memory, overflow
+pwd_grp.c, 478, Check stdlibfunc return, assertion
+less.c, 1810, Xfree, assertion
+depmod.c, 199, Xfree, assertion
+loadkmap.c, 77, Uninitialized memory, array bounds
+ipneigh.c, 165, Uninitialized memory, overflow
+uuencode.c, 145, Uninitialized memory, pointer dereference
+awk.c, 2345, Uninitialized memory, overflow
+tls_pstm.c, 415, Dead store, pointer dereference
+powertop.c, 452, Check stdlibfunc return, overflow
+dpkg.c, 1178, Xfree, assertion
+hush.c, 5546, Check stdlibfunc return, overflow
+ash.c, 6341, Uninitialized memory, pointer dereference
+hush.c, 4934, Check stdlibfunc return, overflow
+rtc.c, 100, Check stdlibfunc return, pointer dereference
+expr.c, 300, Uninitialized memory, pointer dereference
+ifplugd.c, 553, Uninitialized memory, overflow
+lineedit.c, 737, Check stdlibfunc return, pointer dereference
+blocksort.c, 288, Dead store, overflow
+mkfs_ext2.c, 461, Uninitialized memory, overflow
+uudecode.c, 151, Check stdlibfunc return, overflow
+modprobe-small.c, 638, Xfree, assertion
+ipaddress.c, 343, Uninitialized memory, overflow
+ash.c, 602, Check stdlibfunc return, pointer dereference
+last_fancy.c, 200, Uninitialized memory, overflow
+lineedit.c, 2022, Xfree, assertion
+umount.c, 238, Xfree, assertion
+hexedit.c, 99, Dead store, overflow
+ipaddress.c, 157, Uninitialized memory, overflow
+last_fancy.c, 258, Xfree, assertion
+dd.c, 225, Check stdlibfunc return, overflow
+awk.c, 3202, Check stdlibfunc return, overflow
+ifupdown.c, 905, Xfree, assertion
+ntpd.c, 552, Uninitialized memory, NaN
+bootchartd.c, 293, Uninitialized memory, pointer dereference
+fdisk_sgi.c, 534, Uninitialized memory, array bounds
+domain_codec.c, 146, Xfree, assertion
+kernel_version.c, 29, Dead store, pointer dereference
+vi.c, 2085, Dead store, overflow
+readprofile.c, 177, Uninitialized memory, overflow
+ifupdown.c, 429, Xfree, assertion
+fbsplash.c, 441, Uninitialized memory, overflow
+svlogd.c, 467, Uninitialized memory, overflow
+mount.c, 514, Double free, pointer dereference
+hush.c, 10108, Dead store, pointer dereference
+xreadlink.c, 73, Xfree, assertion
+dump.c, 226, Case termination, pointer dereference
+hush.c, 2238, Xfree, assertion
+awk.c, 2717, Dead store, pointer dereference
+svlogd.c, 558, Check stdlibfunc return, pointer dereference
+simplify_path.c, 54, Xfree, assertion
+utils.c, 96, Check stdlibfunc return, overflow
+hush.c, 7388, Check stdlibfunc return, pointer dereference
+fsck.c, 297, Xfree, assertion
+less.c, 1605, Check stdlibfunc return, pointer dereference
+wget.c, 1139, Check stdlibfunc return, pointer dereference
+diff.c, 937, Xfree, overflow
+inetd.c, 892, Uninitialized memory, overflow
+pgrep.c, 119, Uninitialized memory, overflow
+whois.c, 103, Xfree, assertion
+fdisk_sgi.c, 543, Uninitialized memory, array bounds
+ipneigh.c, 126, Uninitialized memory, overflow
+tftp.c, 532, Uninitialized memory, overflow
+socket.c, 93, Check stdlibfunc return, overflow
+ntpd.c, 2122, Xfree, assertion
+dump.c, 138, Check stdlibfunc return, pointer dereference
+hush.c, 3296, Xfree, assertion
+progress.c, 154, Uninitialized memory, overflow
+ash.c, 10081, Uninitialized memory, pointer dereference
+decompress_gunzip.c, 396, Uninitialized memory, array bounds
+mkfs_reiser.c, 380, Xfree, assertion
+lspci.c, 107, Xfree, assertion
+hash_md5_sha.c, 543, Uninitialized memory, overflow
+pwd_grp.c, 491, Check stdlibfunc return, assertion
+brctl.c, 366, Uninitialized memory, overflow
+acpid.c, 359, Xfree, assertion
+modutils.c, 143, Check stdlibfunc return, overflow
+od.c, 183, Check stdlibfunc return, overflow
+mdev.c, 1099, Check stdlibfunc return, pointer dereference
+date.c, 333, Dead store, overflow
+bbunzip.c, 124, Uninitialized memory, overflow
+fdisk_sun.c, 435, Uninitialized memory, array bounds
+ps.c, 608, Uninitialized memory, overflow
+byteswap.h, 111, Uninitialized memory, overflow
+hexdump.c, 195, Check stdlibfunc return, pointer dereference
+lineedit.c, 1384, Double free, overflow
+whois.c, 96, Xfree, assertion
+blocksort.c, 346, Uninitialized memory, array bounds
+man.c, 287, Uninitialized memory, overflow
+mkfs_reiser.c, 379, Xfree, assertion
+setfiles.c, 330, Check stdlibfunc return, overflow
+sort.c, 206, Uninitialized memory, overflow
+hush.c, 8135, Xfree, assertion
+modprobe-small.c, 1054, Xfree, assertion
+inotifyd.c, 195, Uninitialized memory, pointer dereference
+hush.c, 8505, Double free, assertion
+ipaddress.c, 247, Uninitialized memory, overflow
+d6_socket.c, 88, Uninitialized memory, overflow
+inetd.c, 1100, Xfree, assertion
+nbd-client.c, 115, Check stdlibfunc return, overflow
+xconnect.c, 472, Check stdlibfunc return, overflow
+lineedit.c, 869, Xfree, pointer dereference
+fdisk_sgi.c, 751, Uninitialized memory, overflow
+lpd.c, 284, Xfree, assertion
+devfsd.c, 661, Uninitialized memory, pointer dereference
+vi.c, 1412, Check stdlibfunc return, overflow
+rx.c, 114, Uninitialized memory, overflow
+gzip.c, 1346, Dead store, overflow
+xfuncs_printf.c, 367, Xfree, assertion
+nmeter.c, 426, Uninitialized memory, overflow
+ifupdown.c, 1250, Check stdlibfunc return, assertion
+fdisk_sgi.c, 525, Uninitialized memory, overflow
+fdisk.c, 2537, Uninitialized memory, pointer dereference
+diff.c, 753, Uninitialized memory, overflow
+sort.c, 209, Dead store, pointer dereference
+lpd.c, 132, Uninitialized memory, overflow
+devfsd.c, 829, Xfree, assertion
+hush.c, 3496, Dead store, pointer dereference
+mdev.c, 743, Check stdlibfunc return, overflow
+fdisk.c, 2238, Uninitialized memory, pointer dereference
+syslogd.c, 948, Xfree, assertion
+lineedit.c, 1724, Dead store, pointer dereference
+fdisk_sun.c, 417, Uninitialized memory, array bounds
+bootchartd.c, 155, Uninitialized memory, overflow
+acpid.c, 234, Uninitialized memory, pointer dereference
+hush.c, 1475, Xfree, assertion
+diff.c, 511, Uninitialized memory, overflow
+route.c, 447, Uninitialized memory, overflow
+dpkg.c, 1544, Xfree, assertion
+xz_dec_lzma2.c, 326, Dead store, overflow
+fdisk_sun.c, 462, Uninitialized memory, array bounds
+ls.c, 803, Double free, assertion
+zcip.c, 248, Uninitialized memory, overflow
+taskset.c, 195, Uninitialized memory, overflow
+modprobe.c, 367, Uninitialized memory, pointer dereference
+sort.c, 216, Dead store, pointer dereference
+bzlib.c, 133, Case termination, pointer dereference
+fdisk.c, 2419, Uninitialized memory, array bounds
+diff.c, 619, Uninitialized memory, pointer dereference
+awk.c, 2406, Uninitialized memory, overflow
+ifplugd.c, 469, Uninitialized memory, pointer dereference
+unshare.c, 208, Uninitialized memory, overflow
+ipaddress.c, 709, Uninitialized memory, overflow
+ash.c, 7978, Xfree, assertion
+fdisk_sun.c, 422, Uninitialized memory, array bounds
+httpd.c, 852, Uninitialized memory, overflow
+sed.c, 1094, Dead store, pointer dereference
+blocksort.c, 252, Uninitialized memory, array bounds
+powertop.c, 494, Check stdlibfunc return, assertion
+netstat.c, 245, Xfree, assertion
+ntpd.c, 1393, Uninitialized memory, pointer dereference
+inetd.c, 864, Check stdlibfunc return, pointer dereference
+interface.c, 517, Uninitialized memory, overflow
+ed.c, 876, Uninitialized memory, pointer dereference
+ipcrm.c, 70, Uninitialized memory, overflow
+fdisk.c, 2523, Uninitialized memory, overflow
+man.c, 298, Uninitialized memory, overflow
+vi.c, 1168, Uninitialized memory, overflow
+which.c, 63, Xfree, assertion
+wget.c, 1332, Xfree, assertion
+hush.c, 8468, Xfree, assertion
+cryptpw.c, 128, Uninitialized memory, overflow
+get_header_tar.c, 275, Dead store, overflow
+httpd.c, 2238, Check stdlibfunc return, overflow
+mv.c, 159, Xfree, assertion
+ash.c, 7117, Case termination, pointer dereference
+fdisk_sun.c, 431, Uninitialized memory, overflow
+hush.c, 6938, Xfree, assertion
+strings.c, 111, Xfree, assertion
+blocksort.c, 247, Uninitialized memory, pointer dereference
+vconfig.c, 120, Uninitialized memory, overflow
+tls_aes.c, 369, Uninitialized memory, overflow
+devfsd.c, 1675, Uninitialized memory, pointer dereference
+dhcpc.c, 553, Dead store, pointer dereference
+ash.c, 10013, Uninitialized memory, pointer dereference
+procps.c, 388, Check stdlibfunc return, overflow
+perror_msg.c, 27, Uninitialized memory, pointer dereference
+d6_dhcpc.c, 1158, Check stdlibfunc return, overflow
+iprule.c, 211, Uninitialized memory, overflow
+lsusb.c, 59, Uninitialized memory, overflow
+lspci.c, 76, Uninitialized memory, overflow
+lineedit.c, 786, Check stdlibfunc return, overflow
+tac.c, 110, Xfree, assertion
+powertop.c, 213, Check stdlibfunc return, assertion
+brctl.c, 257, Uninitialized memory, array bounds
+tail.c, 403, Xfree, assertion
+ash.c, 12337, Case termination, pointer dereference
+read_printf.c, 129, Xfree, assertion
+tftp.c, 789, Check stdlibfunc return, overflow
+compress.c, 473, Uninitialized memory, array bounds
+awk.c, 2868, Check stdlibfunc return, pointer dereference
+cpio.c, 276, Xfree, assertion
+mail.c, 146, Uninitialized memory, overflow
+man.c, 203, Check stdlibfunc return, overflow
+dhcprelay.c, 146, Uninitialized memory, overflow
+unzip.c, 978, Xfree, assertion
+mdev.c, 528, Check stdlibfunc return, overflow
+lineedit.c, 682, Check stdlibfunc return, overflow
+env.c, 80, Check stdlibfunc return, pointer dereference
+iproute.c, 274, Uninitialized memory, overflow
+iproute.c, 207, Uninitialized memory, overflow
+powertop.c, 365, Check stdlibfunc return, overflow
+lsusb.c, 50, Uninitialized memory, overflow
+lspci.c, 69, Uninitialized memory, overflow
+setfiles.c, 643, Check stdlibfunc return, assertion
+modprobe.c, 282, Uninitialized memory, overflow
+dpkg.c, 786, Xfree, assertion
+modprobe.c, 491, Xfree, assertion
+bzlib.c, 374, Xfree, assertion
+tls.c, 1412, Uninitialized memory, overflow
+uidgid_get.c, 98, Check stdlibfunc return, overflow
+powertop.c, 766, Uninitialized memory, overflow
+data_extract_to_command.c, 93, Uninitialized memory, pointer dereference
+decompress_gunzip.c, 847, Uninitialized memory, overflow
+dpkg.c, 1311, Double free, assertion
+bootchartd.c, 167, Check stdlibfunc return, overflow
+losetup.c, 109, Xfree, assertion
+devfsd.c, 1016, Xfree, assertion
+tls_aes.c, 383, Uninitialized memory, pointer dereference
+common.c, 603, Uninitialized memory, overflow
+rpm.c, 236, Xfree, assertion
+decompress_bunzip2.c, 287, Uninitialized memory, array bounds
+ash.c, 13015, Check stdlibfunc return, overflow
+nameif.c, 271, Uninitialized memory, overflow
+iproute.c, 1084, Uninitialized memory, overflow
+man.c, 309, Check stdlibfunc return, pointer dereference
+lspci.c, 58, Uninitialized memory, overflow
+ntpd.c, 1269, Uninitialized memory, array bounds
+decompress_gunzip.c, 918, Uninitialized memory, overflow
+unicode.c, 59, Check stdlibfunc return, pointer dereference
+dpkg.c, 1923, Double free, pointer dereference
+httpd.c, 1063, Dead store, pointer dereference
+fdisk.c, 2391, Uninitialized memory, array bounds
+stty.c, 1058, Uninitialized memory, overflow
+printf.c, 190, Check stdlibfunc return, overflow
+executable.c, 99, Check stdlibfunc return, pointer dereference
+id.c, 229, Dead store, pointer dereference
+mount.c, 1779, Dead store, overflow
+start_stop_daemon.c, 207, Xfree, assertion
+procps.c, 510, Check stdlibfunc return, assertion
+xz_dec_lzma2.c, 1041, Case termination, pointer dereference
+cp.c, 213, Xfree, assertion
+hush.c, 1947, Xfree, assertion
+ash.c, 11425, Case termination, overflow
+nslookup.c, 84, Uninitialized memory, overflow
+dmesg.c, 121, Xfree, assertion
+mdev.c, 998, Uninitialized memory, overflow
+iproute.c, 292, Uninitialized memory, overflow
+sed.c, 1542, Xfree, assertion
+netstat.c, 287, Xfree, assertion
+hfs.c, 156, Uninitialized memory, overflow
+ntpd.c, 2066, Uninitialized memory, pointer dereference
+dump.c, 210, Case termination, pointer dereference
+add-remove-shell.c, 129, Xfree, assertion
+lsusb.c, 68, Xfree, assertion
+flashcp.c, 147, Uninitialized memory, overflow
+od_bloaty.c, 734, Uninitialized memory, pointer dereference
+d6_dhcpc.c, 886, Uninitialized memory, overflow
+decompress_gunzip.c, 341, Uninitialized memory, array bounds
+getopt.c, 161, Xfree, assertion
+sendmail.c, 177, Check stdlibfunc return, overflow
+chmod.c, 119, Check stdlibfunc return, pointer dereference
+sysctl.c, 197, Xfree, assertion
+sv.c, 581, Case termination, overflow
+mpstat.c, 828, Xfree, assertion
+login.c, 604, Uninitialized memory, pointer dereference
+mdev.c, 638, Uninitialized memory, pointer dereference
+mount.c, 1836, Xfree, assertion
+httpd.c, 887, Uninitialized memory, overflow
+dhcprelay.c, 324, Uninitialized memory, pointer dereference
+ftpd.c, 526, Xfree, assertion
+uniq.c, 132, Xfree, assertion
+svlogd.c, 504, Uninitialized memory, overflow
+decompress_gunzip.c, 1181, Uninitialized memory, pointer dereference
+interface.c, 458, Check stdlibfunc return, array bounds
+ash.c, 13903, Uninitialized memory, pointer dereference
+d6_dhcpc.c, 1250, Uninitialized memory, overflow
+blocksort.c, 258, Uninitialized memory, array bounds
+grep.c, 631, Xfree, assertion
+diff.c, 278,  Cfg innnvoid function, pointer dereference
+httpd.c, 2583, Uninitialized memory, overflow
+dpkg.c, 300, Check stdlibfunc return, overflow
+slattach.c, 76, Uninitialized memory, overflow
+ipaddress.c, 191, Uninitialized memory, overflow
+awk.c, 3091, Check stdlibfunc return, pointer dereference
+dhcpc.c, 344, Case termination, overflow
+traceroute.c, 430, Uninitialized memory, pointer dereference
+mount.c, 2094, Xfree, assertion
+crontab.c, 60, Check stdlibfunc return, pointer dereference
+md5_sha1_sum.c, 325, Xfree, assertion
+nmeter.c, 483, Uninitialized memory, pointer dereference
+isrv_identd.c, 96, Xfree, assertion
+mount.c, 1835, Xfree, assertion
+fdisk_sgi.c, 564, Uninitialized memory, array bounds
+ether-wake.c, 242, Uninitialized memory, overflow
+less.c, 1088, Uninitialized memory, overflow
+less.c, 355, Uninitialized memory, overflow
+rpm.c, 217, Check stdlibfunc return, overflow
+fbsplash.c, 471, Uninitialized memory, overflow
+httpd.c, 1879, Xfree, assertion
+fdisk.c, 2481, Dead store, overflow
+dump.c, 192, Check stdlibfunc return, pointer dereference
+xconnect.c, 424, Xfree, assertion
+hash_md5_sha.c, 1262, Uninitialized memory, overflow
+mount.c, 1276, Check stdlibfunc return, overflow
+diff.c, 907, Uninitialized memory, pointer dereference
+netstat.c, 638, Uninitialized memory, overflow
+decompress_unlzma.c, 238, Dead store, overflow
+hush.c, 10631, Xfree, assertion
+pstree.c, 282, Uninitialized memory, overflow
+acpid.c, 210, Uninitialized memory, pointer dereference
+tftp.c, 566, Case termination, overflow
+hush.c, 3043, Uninitialized memory, overflow
+sestatus.c, 127, Xfree, assertion
+fsck.c, 667, Xfree, assertion
+bootchartd.c, 393, Uninitialized memory, overflow
+fclose_nonstdin.c, 22, Check stdlibfunc return, assertion
+wc.c, 204, Uninitialized memory, overflow
+patch.c, 174, Xfree, assertion
+crontab.c, 157, Case termination, overflow
+crond.c, 465, Xfree, assertion
+awk.c, 3101, Xfree, assertion
+kill.c, 298, Xfree, assertion
+pidof.c, 132, Xfree, assertion
+wget.c, 665, Check stdlibfunc return, overflow
+tls_aes.c, 435, Uninitialized memory, overflow
+dump.c, 587, Uninitialized memory, overflow
+devfsd.c, 1733, Uninitialized memory, overflow
+crond.c, 573, Uninitialized memory, pointer dereference
+netstat.c, 631, Uninitialized memory, overflow
+dpkg.c, 942, Check stdlibfunc return, assertion
+udp_io.c, 67, Uninitialized memory, overflow
+i2c_tools.c, 1182, Uninitialized memory, overflow
+fuser.c, 312, Check stdlibfunc return, pointer dereference
+wget.c, 520, Check stdlibfunc return, pointer dereference
+mpstat.c, 214, Dead store, overflow
+hush.c, 5543, Check stdlibfunc return, overflow
+chat.c, 508, Xfree, assertion
+httpd.c, 1861, Uninitialized memory, overflow
+shell_common.c, 252, Check stdlibfunc return, overflow
+lzop.c, 891, Xfree, assertion
+mdev.c, 422, Check stdlibfunc return, overflow
+sed.c, 447, Xfree, assertion
+loadkmap.c, 83, Uninitialized memory, array bounds
+lineedit.c, 2146, Uninitialized memory, overflow
+match.h, 26, Dead store, overflow
+ash.c, 4007, Dead store, pointer dereference
+netstat.c, 404, Xfree, assertion
+ash.c, 9331, Double free, assertion
+decompress_gunzip.c, 329, Uninitialized memory, pointer dereference
+man.c, 137, Xfree, assertion
+dhcprelay.c, 281, Uninitialized memory, overflow
+inetd.c, 733, Xfree, assertion
+patch.c, 561, Xfree, assertion
+decompress_bunzip2.c, 346, Uninitialized memory, pointer dereference
+ash.c, 8043, Xfree, assertion
+hwclock.c, 285, Uninitialized memory, overflow
+fdisk_sgi.c, 547, Uninitialized memory, overflow
+last.c, 101, Uninitialized memory, overflow
+dhcpd.c, 504, Uninitialized memory, overflow
+rpm.c, 194, Check stdlibfunc return, overflow
+ipaddress.c, 349, Uninitialized memory, pointer dereference
+getsebool.c, 67, Uninitialized memory, pointer dereference
+patch.c, 156, Xfree, assertion
+ed.c, 599, Xfree, assertion
+diff.c, 565, Xfree, assertion
+awk.c, 2344, Uninitialized memory, overflow
+decompress_gunzip.c, 370, Uninitialized memory, overflow
+fsck.c, 887, Check stdlibfunc return, overflow
+hush.c, 7369, Xfree, assertion
+diff.c, 934, Xfree, array bounds
+diff.c, 465, Uninitialized memory, overflow
+modinfo.c, 121, Xfree, assertion
+ntpd.c, 562, Uninitialized memory, NaN
+get_header_tar.c, 125, Double free, pointer dereference
+cpio.c, 300, Uninitialized memory, overflow
+fdisk_sgi.c, 552, Uninitialized memory, array bounds
+parse_config.c, 200, Double free, pointer dereference
+nameif.c, 201, Dead store, pointer dereference
+cp.c, 227, Xfree, assertion
+devfsd.c, 1053, Uninitialized memory, overflow
+mount.c, 516, Double free, pointer dereference
+hush.c, 4933, Check stdlibfunc return, overflow
+df.c, 151, Check stdlibfunc return, pointer dereference
+powertop.c, 848, Uninitialized memory, overflow
+pwd_grp.c, 531, Check stdlibfunc return, assertion
+kill.c, 205, Dead store, pointer dereference
+rpm.c, 259, Double free, assertion
+lpd.c, 296, Uninitialized memory, array bounds
+xreadlink.c, 32, Xfree, assertion
+add-remove-shell.c, 120, Check stdlibfunc return, assertion
+chpst.c, 238, Uninitialized memory, overflow
+nmeter.c, 717, Uninitialized memory, pointer dereference
+bootchartd.c, 126, Check stdlibfunc return, pointer dereference
+diff.c, 943, Double free, assertion
+ifupdown.c, 906, Xfree, assertion
+nmeter.c, 604, Uninitialized memory, array bounds
+devmem.c, 49, Dead store, pointer dereference
+less.c, 390, Double free, assertion
+route.c, 641, Xfree, assertion
+mount.c, 515, Double free, pointer dereference
+top.c, 351, Check stdlibfunc return, assertion
+inetd.c, 1678, Uninitialized memory, overflow
+procps.c, 562, Uninitialized memory, pointer dereference
+init.c, 299, Check stdlibfunc return, pointer dereference
+ntpd.c, 1036, Uninitialized memory, overflow
+decompress_bunzip2.c, 240, Uninitialized memory, overflow
+hush.c, 4602, Check stdlibfunc return, overflow
+dpkg.c, 1717, Xfree, assertion
+awk.c, 1027, Double free, pointer dereference
+ash.c, 2749, Case termination, pointer dereference
+iostat.c, 502, Uninitialized memory, pointer dereference
+ash.c, 12967, Uninitialized memory, pointer dereference
+sed.c, 1613, Double free, assertion
+devmem.c, 54, Dead store, pointer dereference
+common.c, 209, Dead store, overflow
+lspci.c, 106, Xfree, assertion
+decompress_gunzip.c, 395, Uninitialized memory, overflow
+modprobe.c, 323, Uninitialized memory, pointer dereference
+svlogd.c, 299, Case termination, pointer dereference
+hash_md5_sha.c, 542, Uninitialized memory, overflow
+wget.c, 1321, Check stdlibfunc return, assertion
+vi.c, 1521, Uninitialized memory, overflow
+telnet.c, 247, Uninitialized memory, overflow
+inetd.c, 1106, Xfree, assertion
+ash.c, 9254, Dead store, overflow
+fbsplash.c, 560, Xfree, assertion
+lineedit.c, 863, Xfree, assertion
+cut.c, 146, Check stdlibfunc return, overflow
+fsck.c, 1066, Check stdlibfunc return, pointer dereference
+chpst.c, 248, Check stdlibfunc return, overflow
+mdev.c, 1098, Check stdlibfunc return, pointer dereference
+fdisk_sun.c, 434, Uninitialized memory, overflow
+dump.c, 622, Uninitialized memory, overflow
+ipaddress.c, 618, Uninitialized memory, overflow
+sed.c, 181, Check stdlibfunc return, assertion
+domain_codec.c, 131, Xfree, assertion
+grep.c, 572, Xfree, assertion
+setfiles.c, 331, Check stdlibfunc return, overflow
+lineedit.c, 759, Check stdlibfunc return, overflow
+ash.c, 4523, Uninitialized memory, overflow
+ubi_tools.c, 137, Uninitialized memory, overflow
+fdisk_sgi.c, 857, Uninitialized memory, array bounds
+hush.c, 6252, Double free, pointer dereference
+find.c, 528, Dead store, pointer dereference
+printf.c, 306, Check stdlibfunc return, pointer dereference
+lineedit.c, 870, Xfree, assertion
+interface.c, 878, Uninitialized memory, overflow
+filter_accept_list_reassign.c, 24, Check stdlibfunc return, pointer dereference
+devfsd.c, 660, Uninitialized memory, pointer dereference
+shuf.c, 118, Dead store, pointer dereference
+chattr.c, 183, Uninitialized memory, overflow
+awk.c, 3115, Check stdlibfunc return, assertion
+decompress_bunzip2.c, 238, Uninitialized memory, array bounds
+svlogd.c, 1165, Uninitialized memory, overflow
+diff.c, 501, Uninitialized memory, array bounds
+popmaildir.c, 161, Check stdlibfunc return, overflow
+paste.c, 57, Xfree, assertion
+runsvdir.c, 196, Check stdlibfunc return, overflow
+powertop.c, 775, Uninitialized memory, array bounds
+devfsd.c, 1644, Case termination, pointer dereference
+hush.c, 8710, Double free, pointer dereference
+popmaildir.c, 272, Xfree, assertion
+fbsplash.c, 431, Uninitialized memory, pointer dereference
+decompress_bunzip2.c, 460, Uninitialized memory, array bounds
+i2c_tools.c, 775, Uninitialized memory, pointer dereference
+ash.c, 10299, Dead store, pointer dereference
+pwd_grp.c, 506, Uninitialized memory, overflow
+awk.c, 2428, Dead store, pointer dereference
+fdisk_sgi.c, 727, Uninitialized memory, overflow
+acpid.c, 233, Uninitialized memory, pointer dereference
+blocksort.c, 689, Uninitialized memory, array bounds
+unshare.c, 187, Uninitialized memory, pointer dereference
+dpkg.c, 927, Xfree, assertion
+whois.c, 113, Xfree, assertion
+devfsd.c, 1086, Case termination, overflow
+ftpd.c, 976, Xfree, assertion
+expand.c, 98, Xfree, assertion
+svlogd.c, 668, Check stdlibfunc return, pointer dereference
+hush.c, 6697, Xfree, assertion
+wget.c, 1330, Uninitialized memory, assertion
+crond.c, 408, Xfree, assertion
+dhcpc.c, 890, Uninitialized memory, overflow
+arpping.c, 66, Uninitialized memory, overflow
+bbunzip.c, 215, Check stdlibfunc return, overflow
+adjtimex.c, 96, Uninitialized memory, overflow
+ed.c, 948, Case termination, pointer dereference
+xfuncs_printf.c, 597, Uninitialized memory, overflow
+split.c, 164, Check stdlibfunc return, overflow
+sv.c, 551, Case termination, overflow
+unzip.c, 862, Uninitialized memory, overflow
+fsck_minix.c, 573, Uninitialized memory, overflow
+lsof.c, 59, Uninitialized memory, pointer dereference
+hush.c, 4676, Uninitialized memory, pointer dereference
+httpd.c, 853, Uninitialized memory, overflow
+ed.c, 331, Xfree, assertion
+pscan.c, 170, Xfree, assertion
+awk.c, 3238, Xfree, assertion
+install.c, 262, Xfree, assertion
+perror_msg.c, 17, Uninitialized memory, pointer dereference
+tar.c, 212, Xfree, assertion
+ls.c, 827, Dead store, pointer dereference
+pwd.c, 88, Xfree, assertion
+vi.c, 1175, Uninitialized memory, overflow
+decompress_gunzip.c, 431, Uninitialized memory, overflow
+sestatus.c, 60, Xfree, pointer dereference
+od_bloaty.c, 1038, Uninitialized memory, overflow
+mdev.c, 489, Check stdlibfunc return, pointer dereference
+crontab.c, 173, Case termination, pointer dereference
+wget.c, 1333, Xfree, assertion
+mdev.c, 414, Check stdlibfunc return, pointer dereference
+touch.c, 186, Uninitialized memory, pointer dereference
+diff.c, 996, Uninitialized memory, pointer dereference
+vi.c, 658, Check stdlibfunc return, pointer dereference
+fdisk_sun.c, 430, Uninitialized memory, array bounds
+mail.c, 156, Check stdlibfunc return, assertion
+fuser.c, 264, Xfree, assertion
+tls_aes.c, 370, Uninitialized memory, overflow
+nmeter.c, 412, Dead store, overflow
+lineedit.c, 1413, Xfree, assertion
+setfiles.c, 508, Xfree, assertion
+reformime.c, 238, Xfree, assertion
+tls_pstm.c, 179, Dead store, pointer dereference
+ubi_tools.c, 230, Uninitialized memory, overflow
+find.c, 675, Uninitialized memory, array bounds
+diff.c, 651, Uninitialized memory, overflow
+dhcpd.c, 416, Uninitialized memory, pointer dereference
+ntpd.c, 1272, Uninitialized memory, pointer dereference
+wget.c, 1228, Case termination, pointer dereference
+ipaddress.c, 293, Uninitialized memory, pointer dereference
+arpping.c, 80, Uninitialized memory, overflow
+get_header_tar.c, 283, Dead store, overflow
+id.c, 216, Uninitialized memory, overflow
+watch.c, 90, Xfree, assertion
+ash.c, 10866, Xfree, pointer dereference
+cttyhack.c, 114, Uninitialized memory, overflow
+get_devname.c, 90, Dead store, pointer dereference
+fsck_minix.c, 559, Uninitialized memory, overflow
+mount.c, 1856, Check stdlibfunc return, pointer dereference
+d6_dhcpc.c, 241, Uninitialized memory, pointer dereference
+hush.c, 7010, Xfree, assertion
+hush.c, 9693, Check stdlibfunc return, overflow
+ntpd.c, 1376, Uninitialized memory, array bounds
+xconnect.c, 211, Check stdlibfunc return, overflow
+dnsd.c, 139, Uninitialized memory, overflow
+ifplugd.c, 285, Uninitialized memory, array bounds
+lspci.c, 68, Uninitialized memory, overflow
+shell_common.c, 293, Xfree, assertion
+setup_environment.c, 51, Check stdlibfunc return, pointer dereference
+fsck.c, 726, Case termination, pointer dereference
+comm.c, 80, Xfree, assertion
+pwd_grp.c, 212, Xfree, assertion
+data_extract_to_command.c, 92, Uninitialized memory, pointer dereference
+common.c, 602, Uninitialized memory, overflow
+lineedit.c, 1427, Uninitialized memory, array bounds
+tls_pstm_mul_comba.c, 295, Dead store, pointer dereference
+mdev.c, 536, Xfree, assertion
+httpd.c, 516, Xfree, assertion
+uudecode.c, 164, Xfree, assertion
+ifplugd.c, 274, Uninitialized memory, overflow
+iproute.c, 1085, Uninitialized memory, overflow
+ntpd.c, 2076, Xfree, assertion
+svlogd.c, 736, Check stdlibfunc return, overflow
+dpkg.c, 677, Xfree, assertion
+od_bloaty.c, 1051, Xfree, assertion
+dpkg.c, 1924, Xfree, pointer dereference
+wall.c, 55, Xfree, assertion
+uudecode.c, 215, Uninitialized memory, overflow
+comm.c, 87, Uninitialized memory, overflow
+pw_encrypt_md5.c, 113, Uninitialized memory, overflow
+cksum.c, 48, Dead store, pointer dereference
+awk.c, 2450, Uninitialized memory, pointer dereference
+loop.c, 122, Uninitialized memory, overflow
+less.c, 1528, Xfree, assertion
+devfsd.c, 1130, Xfree, assertion
+fflush_stdout_and_exit.c, 17, Check stdlibfunc return, pointer dereference
+mount.c, 563, Double free, pointer dereference
+head.c, 130, Double free, overflow
+fdisk_sun.c, 530, Uninitialized memory, array bounds
+read_printf.c, 73, Dead store, pointer dereference
+powertop.c, 809, Uninitialized memory, overflow
+lsusb.c, 69, Xfree, assertion
+sort.c, 331, Xfree, pointer dereference
+decompress_bunzip2.c, 486, Uninitialized memory, array bounds
+od_bloaty.c, 735, Uninitialized memory, pointer dereference
+procps.c, 578, Uninitialized memory, overflow
+od_bloaty.c, 1042, Uninitialized memory, array bounds
+sed.c, 981, Xfree, assertion
+fatattr.c, 50, Check stdlibfunc return, overflow
+uudecode.c, 222, Uninitialized memory, overflow
+devfsd.c, 1864, Check stdlibfunc return, pointer dereference
+awk.c, 2009, Check stdlibfunc return, overflow
+less.c, 1408, Dead store, pointer dereference
+grep.c, 850, Double free, assertion
+ipaddress.c, 86, Uninitialized memory, overflow
+less.c, 1523, Check stdlibfunc return, assertion
+math.c, 453, Uninitialized memory, pointer dereference
+devfsd.c, 894, Uninitialized memory, pointer dereference
+vi.c, 1140, Dead store, overflow
+nmeter.c, 860, Check stdlibfunc return, overflow
+mkfs_minix.c, 585, Dead store, pointer dereference
+modprobe-small.c, 560, Uninitialized memory, overflow
+modprobe-small.c, 454, Xfree, assertion
+init.c, 322, Check stdlibfunc return, pointer dereference
+md5_sha1_sum.c, 307, Xfree, assertion
+lineedit.c, 1226, Xfree, assertion
+sed.c, 591, Xfree, assertion
+ed.c, 244, Uninitialized memory, overflow
+libnetlink.c, 62, Uninitialized memory, overflow
+diff.c, 897, Uninitialized memory, overflow
+iptunnel.c, 232, Check stdlibfunc return, pointer dereference
+fsck_minix.c, 523, Uninitialized memory, overflow
+reformime.c, 82, Uninitialized memory, overflow
+sendmail.c, 503, Check stdlibfunc return, pointer dereference
+lsattr.c, 95, Xfree, assertion
+fdisk_sgi.c, 567, Uninitialized memory, array bounds
+decompress_unlzma.c, 81, Uninitialized memory, overflow
+fsck.c, 613, Check stdlibfunc return, overflow
+interface.c, 911, Check stdlibfunc return, assertion
+awk.c, 1769, Uninitialized memory, overflow
+netstat.c, 678, Check stdlibfunc return, assertion
+runsv.c, 237, Uninitialized memory, overflow
+procps.c, 235, Double free, assertion
+ipaddress.c, 258, Uninitialized memory, overflow
+comm.c, 76, Xfree, assertion
+sulogin.c, 87, Check stdlibfunc return, pointer dereference
+login.c, 572, Uninitialized memory, pointer dereference
+modprobe.c, 398, Xfree, assertion
+hash_md5_sha.c, 725, Uninitialized memory, overflow
+lineedit.c, 2244, Uninitialized memory, overflow
+devfsd.c, 1743, Uninitialized memory, overflow
+netstat.c, 637, Uninitialized memory, overflow
+modprobe-small.c, 845, Xfree, assertion
+vi.c, 2127, Check stdlibfunc return, overflow
+ifupdown.c, 1309, Check stdlibfunc return, assertion
+nmeter.c, 512, Uninitialized memory, overflow
+decompress_bunzip2.c, 316, Uninitialized memory, array bounds
+chpasswd.c, 111, Xfree, assertion
+bootchartd.c, 392, Uninitialized memory, overflow
+hush.c, 8657, Xfree, assertion
+syslogd.c, 1077, Case termination, pointer dereference
+readprofile.c, 270, Check stdlibfunc return, assertion
+modprobe.c, 310, Uninitialized memory, overflow
+dos2unix.c, 103, Xfree, assertion
+ipneigh.c, 177, Uninitialized memory, overflow
+iso9660.c, 97, Uninitialized memory, pointer dereference
+tr.c, 266, Uninitialized memory, overflow
+powertop.c, 432, Check stdlibfunc return, overflow
+halt.c, 97, Uninitialized memory, overflow
+tls_aes.c, 436, Uninitialized memory, overflow
+diff.c, 915, Uninitialized memory, array bounds
+ntpd.c, 1008, Xfree, assertion
+sestatus.c, 150, Uninitialized memory, array bounds
+ifconfig.c, 437, Check stdlibfunc return, overflow
+print_numbered_lines.c, 29, Check stdlibfunc return, assertion
+ed.c, 371, Uninitialized memory, overflow
+nandwrite.c, 143, Dead store, pointer dereference
+ls.c, 1141, Check stdlibfunc return, pointer dereference
+fsck.c, 493, Uninitialized memory, pointer dereference
+fdisk.c, 2903, Check stdlibfunc return, assertion
+iproute.c, 313, Uninitialized memory, overflow
+wget.c, 1282, Uninitialized memory, assertion
+lzop.c, 1117, Check stdlibfunc return, overflow
+getsebool.c, 69, Uninitialized memory, pointer dereference
+iostat.c, 196, Check stdlibfunc return, assertion
+procps.c, 558, Uninitialized memory, overflow
+devfsd.c, 762, Uninitialized memory, array bounds
+svlogd.c, 626, Uninitialized memory, overflow
+ash.c, 7059, Case termination, pointer dereference
+patch.c, 488, Dead store, overflow
+modutils.c, 32, Uninitialized memory, pointer dereference
+hush.c, 1537, Xfree, assertion
+top.c, 578, Uninitialized memory, overflow
+dd.c, 563, Xfree, assertion
+awk.c, 2172, Dead store, pointer dereference
+hush.c, 5796, Check stdlibfunc return, overflow
+pidfile.c, 35, Uninitialized memory, overflow
+fsck.c, 974, Check stdlibfunc return, pointer dereference
+last.c, 100, Uninitialized memory, overflow
+smemcap.c, 118, Uninitialized memory, overflow
+uuencode.c, 117, Check stdlibfunc return, overflow
+vi.c, 2105, Check stdlibfunc return, overflow
+crond.c, 586, Xfree, assertion
+stat.c, 716, Xfree, assertion
+netstat.c, 512, Uninitialized memory, overflow
+ntpd.c, 838, Xfree, assertion
+hush.c, 2361, Xfree, pointer dereference
+vi.c, 4163, Uninitialized memory, overflow
+pw_encrypt_des.c, 727, Uninitialized memory, overflow
+expand.c, 220, Check stdlibfunc return, assertion
+lineedit.c, 2017, Xfree, assertion
+route.c, 373, Uninitialized memory, overflow
+get_header_ar.c, 116, Uninitialized memory, pointer dereference
+diff.c, 564, Xfree, assertion
+unzip.c, 821, Uninitialized memory, overflow
+comm.c, 97, Uninitialized memory, array bounds
+login.c, 545, Uninitialized memory, pointer dereference
+od_bloaty.c, 1020, Uninitialized memory, array bounds
+ifconfig.c, 466, Xfree, assertion
+dpkg.c, 526, Double free, pointer dereference
+start_stop_daemon.c, 250, Uninitialized memory, overflow
+ether-wake.c, 277, Uninitialized memory, overflow
+crond.c, 546, Uninitialized memory, pointer dereference
+ntpd.c, 563, Uninitialized memory, overflow
+fdisk_sgi.c, 555, Uninitialized memory, array bounds
+iproute.c, 728, Uninitialized memory, overflow
+fdisk.c, 2998, Check stdlibfunc return, assertion
+init.c, 722, Uninitialized memory, overflow
+hush.c, 5544, Check stdlibfunc return, overflow
+iostat.c, 408, Uninitialized memory, overflow
+mount.c, 517, Double free, pointer dereference
+iproute.c, 331, Uninitialized memory, overflow
+iptunnel.c, 486, Check stdlibfunc return, pointer dereference
+ipaddress.c, 341, Uninitialized memory, overflow
+inetd.c, 1684, Uninitialized memory, pointer dereference
+mpstat.c, 340, Dead store, pointer dereference
+shuf.c, 106, Uninitialized memory, overflow
+ipaddress.c, 155, Uninitialized memory, overflow
+inetd.c, 1264, Uninitialized memory, overflow
+comm.c, 104, Uninitialized memory, array bounds
+mount.c, 1904, Check stdlibfunc return, pointer dereference
+xargs.c, 507, Check stdlibfunc return, assertion
+powertop.c, 122, Check stdlibfunc return, assertion
+devfsd.c, 633, Uninitialized memory, pointer dereference
+nmeter.c, 605, Uninitialized memory, pointer dereference
+fsck_minix.c, 622, Uninitialized memory, overflow
+route.c, 389, Uninitialized memory, overflow
+xz_dec_stream.c, 646, Case termination, pointer dereference
+bootchartd.c, 315, Check stdlibfunc return, assertion
+iproute.c, 156, Uninitialized memory, overflow
+uudecode.c, 109, Xfree, assertion
+sed.c, 1603, Check stdlibfunc return, assertion
+pwd_grp.c, 127, Double free, pointer dereference
+less.c, 553, Dead store, pointer dereference
+awk.c, 2303, Uninitialized memory, array bounds
+setfiles.c, 720, Check stdlibfunc return, assertion
+lineedit.c, 746, Check stdlibfunc return, overflow
+xreadlink.c, 75, Xfree, assertion
+mdev.c, 833, Uninitialized memory, overflow
+ash.c, 5930, Check stdlibfunc return, pointer dereference
+decompress_gunzip.c, 355, Uninitialized memory, array bounds
+od_bloaty.c, 1010, Uninitialized memory, array bounds
+dpkg.c, 1718, Xfree, assertion
+rx.c, 110, Uninitialized memory, overflow
+awk.c, 1026, Double free, pointer dereference
+devfsd.c, 1768, Uninitialized memory, overflow
+cpio.c, 351, Xfree, assertion
+iproute.c, 167, Uninitialized memory, overflow
+ipneigh.c, 124, Uninitialized memory, overflow
+modprobe-small.c, 373, Xfree, assertion
+hfs.c, 285, Uninitialized memory, overflow
+ntpd.c, 1318, Uninitialized memory, array bounds
+progress.c, 152, Uninitialized memory, overflow
+decompress_bunzip2.c, 479, Uninitialized memory, array bounds
+chpasswd.c, 74, Check stdlibfunc return, overflow
+hexedit.c, 317, Case termination, pointer dereference
+wget.c, 1326, Check stdlibfunc return, assertion
+ps.c, 775, Uninitialized memory, overflow
+runsv.c, 195, Uninitialized memory, overflow
+telnet.c, 248, Uninitialized memory, overflow
+setpriv.c, 282, Xfree, assertion
+inetd.c, 687, Double free, pointer dereference
+getopt32.c, 469, Uninitialized memory, pointer dereference
+mdev.c, 640, Uninitialized memory, overflow
+fdisk_sun.c, 437, Uninitialized memory, overflow
+sed.c, 195, Double free, pointer dereference
+tar.c, 331, Uninitialized memory, overflow
+modprobe-small.c, 656, Check stdlibfunc return, assertion
+mount.c, 2296, Uninitialized memory, overflow
+modutils.c, 28, Uninitialized memory, overflow
+devfsd.c, 527, Xfree, assertion
+devfsd.c, 945, Uninitialized memory, pointer dereference
+awk.c, 2620, Check stdlibfunc return, pointer dereference
+ubi_tools.c, 138, Uninitialized memory, overflow
+arp.c, 451, Uninitialized memory, overflow
+vi.c, 4159, Uninitialized memory, overflow
+modprobe-small.c, 760, Uninitialized memory, overflow
+ipaddress.c, 134, Uninitialized memory, overflow
+sort.c, 501, Dead store, overflow
+lineedit.c, 1719, Dead store, pointer dereference
+ntpd.c, 2283, Uninitialized memory, overflow
+iptunnel.c, 288, Uninitialized memory, pointer dereference
+popmaildir.c, 174, Xfree, assertion
+fdisk_sun.c, 459, Uninitialized memory, array bounds
+ubi_tools.c, 327, Uninitialized memory, overflow
+sed.c, 189, Double free, pointer dereference
+bootchartd.c, 241, Check stdlibfunc return, overflow
+netstat.c, 327, Xfree, assertion
+lsusb.c, 44, Uninitialized memory, pointer dereference
+decompress_bunzip2.c, 461, Uninitialized memory, array bounds
+blocksort.c, 921, Uninitialized memory, array bounds
+crond.c, 402, Xfree, assertion
+vi.c, 1672, Check stdlibfunc return, overflow
+nmeter.c, 202, Check stdlibfunc return, overflow
+packet.c, 123, Uninitialized memory, overflow
+mkfs_vfat.c, 533, Uninitialized memory, pointer dereference
+less.c, 1387, Uninitialized memory, overflow
+acpid.c, 232, Uninitialized memory, pointer dereference
+awk.c, 1608, Dead store, pointer dereference
+devfsd.c, 1096, Case termination, pointer dereference
+devfsd.c, 1783, Uninitialized memory, overflow
+unshare.c, 186, Uninitialized memory, overflow
+common.c, 565, Check stdlibfunc return, overflow
+inetd.c, 871, Uninitialized memory, pointer dereference
+lineedit.c, 1837, Check stdlibfunc return, overflow
+nameif.c, 277, Uninitialized memory, overflow
+lspci.c, 80, Uninitialized memory, overflow
+ntpd.c, 1227, Uninitialized memory, array bounds
+modprobe.c, 365, Case termination, pointer dereference
+wget.c, 1331, Double free, assertion
+ipaddress.c, 231, Uninitialized memory, overflow
+xz_dec_stream.c, 587, Case termination, pointer dereference
+xz_dec_stream.c, 309, Case termination, pointer dereference
+nandwrite.c, 81, Uninitialized memory, pointer dereference
+logenv.c, 13, Check stdlibfunc return, pointer dereference
+reformime.c, 123, Check stdlibfunc return, overflow
+od_bloaty.c, 1385, Check stdlibfunc return, assertion
+fdisk_sun.c, 424, Uninitialized memory, overflow
+httpd.c, 854, Uninitialized memory, overflow
+strings.c, 112, Xfree, assertion
+dhcpc.c, 390, Xfree, assertion
+mount.c, 584, Check stdlibfunc return, overflow
+mkfs_ext2.c, 384, Uninitialized memory, overflow
+ash.c, 10715, Uninitialized memory, overflow
+diff.c, 641, Uninitialized memory, array bounds
+devfsd.c, 1078, Case termination, overflow
+netstat.c, 313, Uninitialized memory, overflow
+ash.c, 1923, Xfree, assertion
+sestatus.c, 63, Xfree, assertion
+setserial.c, 690, Case termination, overflow
+dpkg.c, 331, Xfree, assertion
+lzop.c, 818, Xfree, assertion
+dump.c, 572, Uninitialized memory, overflow
+dump.c, 449, Check stdlibfunc return, pointer dereference
+add-remove-shell.c, 77, Uninitialized memory, overflow
+dump.c, 80, Check stdlibfunc return, pointer dereference
+readprofile.c, 246, Uninitialized memory, overflow
+paste.c, 83, Xfree, assertion
+mount.c, 2009, Check stdlibfunc return, pointer dereference
+iproute.c, 194, Uninitialized memory, overflow
+decompress_uncompress.c, 109, Uninitialized memory, overflow
+hexedit.c, 361, Case termination, pointer dereference
+dhcpd.c, 417, Uninitialized memory, pointer dereference
+ifupdown.c, 1491, Double free, pointer dereference
+lineedit.c, 1962, Check stdlibfunc return, overflow
+bootchartd.c, 450, Check stdlibfunc return, pointer dereference
+hush.c, 9888, Double free, overflow
+iplink.c, 559, Uninitialized memory, overflow
+hexdump.c, 120, Check stdlibfunc return, overflow
+getopt32.c, 425, Uninitialized memory, pointer dereference
+ubi.c, 40, Uninitialized memory, overflow
+signals.c, 55, Uninitialized memory, overflow
+bbunzip.c, 198, Xfree, assertion
+data_extract_to_command.c, 90, Uninitialized memory, pointer dereference
+top.c, 562, Check stdlibfunc return, assertion
+devfsd.c, 1837, Uninitialized memory, overflow
+ftpd.c, 648, Xfree, assertion
+remove_file.c, 61, Xfree, assertion
+get_header_tar.c, 139, Double free, pointer dereference
+svlogd.c, 1168, Uninitialized memory, overflow
+parse_config.c, 178, Dead store, overflow
+less.c, 1082, Uninitialized memory, overflow
+vi.c, 1271, Uninitialized memory, overflow
+runsv.c, 279, Uninitialized memory, overflow
+readprofile.c, 253, Uninitialized memory, overflow
+xconnect.c, 220, Check stdlibfunc return, overflow
+ll_map.c, 76, Uninitialized memory, pointer dereference
+ubi_tools.c, 254, Uninitialized memory, overflow
+libnetlink.c, 377, Dead store, pointer dereference
+hush.c, 10040, Check stdlibfunc return, overflow
+less.c, 1173, Xfree, assertion
+wc.c, 239, Uninitialized memory, array bounds
+lsusb.c, 48, Uninitialized memory, overflow
+nmeter.c, 872, Check stdlibfunc return, pointer dereference
+decompress_gunzip.c, 464, Uninitialized memory, overflow
+decompress_bunzip2.c, 489, Uninitialized memory, array bounds
+ash.c, 4567, Uninitialized memory, overflow
+which.c, 47, Check stdlibfunc return, pointer dereference
+fdisk.c, 2394, Uninitialized memory, array bounds
+common.c, 460, Xfree, assertion
+wc.c, 158, Uninitialized memory, overflow
+hush.c, 6092, Xfree, assertion
+ifenslave.c, 467, Uninitialized memory, overflow
+get_header_ar.c, 53, Uninitialized memory, overflow
+ash.c, 2682, Xfree, assertion
+get_header_tar.c, 146, Xfree, assertion
+ifupdown.c, 1064, Xfree, assertion
+i2c_tools.c, 1145, Uninitialized memory, pointer dereference
+nc_bloaty.c, 473, Xfree, assertion
+common.c, 601, Uninitialized memory, overflow
+lineedit.c, 691, Xfree, assertion
+depmod.c, 81, Xfree, assertion
+ubi_tools.c, 245, Uninitialized memory, pointer dereference
+man.c, 307, Check stdlibfunc return, pointer dereference
+xfuncs.c, 176, Dead store, pointer dereference
+ln.c, 97, Xfree, assertion
+vi.c, 874, Check stdlibfunc return, overflow
+verror_msg.c, 40, Uninitialized memory, overflow
+lineedit.c, 1539, Check stdlibfunc return, assertion
+hush.c, 5663, Check stdlibfunc return, pointer dereference
+dpkg.c, 678, Xfree, assertion
+ls.c, 1222, Uninitialized memory, overflow
+devfsd.c, 1287, Xfree, assertion
+diff.c, 525, Uninitialized memory, array bounds
+sv.c, 721, Uninitialized memory, pointer dereference
+xfuncs_printf.c, 296, Check stdlibfunc return, pointer dereference
+sysctl.c, 200, Xfree, assertion
+vi.c, 1360, Uninitialized memory, overflow
+awk.c, 2449, Uninitialized memory, pointer dereference
+ifupdown.c, 1071, Check stdlibfunc return, assertion
+hush.c, 1945, Double free, assertion
+ash.c, 5257, Uninitialized memory, pointer dereference
+blocksort.c, 265, Uninitialized memory, array bounds
+cp.c, 170, Dead store, pointer dereference
+powertop.c, 808, Uninitialized memory, array bounds
+flashcp.c, 149, Uninitialized memory, overflow
+od_bloaty.c, 1043, Uninitialized memory, overflow
+hush.c, 5656, Check stdlibfunc return, pointer dereference
+conspy.c, 503, Case termination, pointer dereference
+arping.c, 348, Xfree, assertion
+get_header_cpio.c, 187, Double free, assertion
+printf.c, 380, Case termination, pointer dereference
+date.c, 256, Dead store, pointer dereference
+id.c, 238, Xfree, assertion
+less.c, 1579, Case termination, overflow
+grep.c, 851, Double free, assertion
+cpio.c, 271, Uninitialized memory, overflow
+hush.c, 1629, Double free, assertion
+dump.c, 124, Check stdlibfunc return, overflow
+lzo1x_9x.c, 421, Dead store, pointer dereference
+auto_string.c, 20, Uninitialized memory, overflow
+httpd.c, 1953, Check stdlibfunc return, pointer dereference
+ash.c, 9318, Xfree, assertion
+decompress_gunzip.c, 348, Uninitialized memory, array bounds
+sed.c, 590, Xfree, assertion
+ed.c, 247, Uninitialized memory, pointer dereference
+sysctl.c, 222, Dead store, pointer dereference
+decompress_unlzma.c, 227, Uninitialized memory, overflow
+fdisk_sgi.c, 566, Uninitialized memory, array bounds
+dc.c, 296, Xfree, assertion
+rev.c, 117, Xfree, assertion
+ipaddress.c, 554, Uninitialized memory, overflow
+nmeter.c, 526, Uninitialized memory, overflow
+ash.c, 4917, Xfree, assertion
+top.c, 316, Check stdlibfunc return, assertion
+modprobe.c, 316, Uninitialized memory, overflow
+rtc.c, 30, Check stdlibfunc return, assertion
+ash.c, 5900, Check stdlibfunc return, pointer dereference
+decompress_gunzip.c, 325, Uninitialized memory, overflow
+dpkg.c, 570, Case termination, pointer dereference
+pwd_grp.c, 290, Uninitialized memory, overflow
+start_stop_daemon.c, 230, Check stdlibfunc return, overflow
+dump.c, 598, Dead store, pointer dereference
+ether-wake.c, 289, Uninitialized memory, overflow
+ash.c, 6214, Double free, assertion
+echo.c, 189, Xfree, assertion
+gzip.c, 1283, Uninitialized memory, array bounds
+ipaddress.c, 547, Uninitialized memory, overflow
+nmeter.c, 513, Uninitialized memory, overflow
+fbsplash.c, 448, Xfree, assertion
+vi.c, 4176, Uninitialized memory, pointer dereference
+wget.c, 1288, Xfree, assertion
+diff.c, 688, Uninitialized memory, pointer dereference
+cttyhack.c, 129, Uninitialized memory, overflow
+crond.c, 322, Dead store, pointer dereference
+readprofile.c, 271, Xfree, assertion
+depmod.c, 202, Uninitialized memory, overflow
+compress.c, 412, Uninitialized memory, array bounds
+diff.c, 545, Uninitialized memory, overflow
+match.h, 23, Dead store, overflow
+wget.c, 1275, Xfree, assertion
+hexdump.c, 82, Xfree, assertion
+unzip.c, 800, Uninitialized memory, overflow
+telnetd.c, 266, Dead store, pointer dereference
+lineedit.c, 2252, Uninitialized memory, overflow
+modutils.c, 62, Double free, assertion
+start_stop_daemon.c, 233, Check stdlibfunc return, overflow
+init.c, 448, Uninitialized memory, array bounds
+copyfd.c, 100, Uninitialized memory, overflow
+vi.c, 2809, Uninitialized memory, overflow
+ps.c, 512, Uninitialized memory, pointer dereference
+ntpd.c, 1009, Xfree, assertion
+dpkg.c, 928, Xfree, assertion
+udp_io.c, 65, Uninitialized memory, overflow
+pidfile.c, 37, Uninitialized memory, overflow
+fdisk_sgi.c, 548, Uninitialized memory, array bounds
+hush.c, 3050, Uninitialized memory, pointer dereference
+verror_msg.c, 100, Xfree, assertion
+ll_map.c, 54, Uninitialized memory, overflow
+powertop.c, 844, Check stdlibfunc return, pointer dereference
+nmeter.c, 838, Uninitialized memory, overflow
+ifupdown.c, 1508, Check stdlibfunc return, assertion
+decompress_gunzip.c, 588, Dead store, pointer dereference
+signals.c, 105, Uninitialized memory, overflow
+uidgid_get.c, 39, Check stdlibfunc return, overflow
+uuencode.c, 141, Uninitialized memory, pointer dereference
+llist.c, 43, Xfree, assertion
+utils.c, 158, Check stdlibfunc return, overflow
+dnsd.c, 554, Uninitialized memory, overflow
+httpd.c, 2701, Uninitialized memory, overflow
+init.c, 455, Uninitialized memory, overflow
+adduser.c, 253, Xfree, assertion
+awk.c, 834, Xfree, assertion
+crond.c, 548, Uninitialized memory, pointer dereference
+nmeter.c, 608, Uninitialized memory, overflow
+dhcpc.c, 470, Uninitialized memory, overflow
+iostat.c, 485, Uninitialized memory, pointer dereference
+fdisk_sgi.c, 557, Uninitialized memory, array bounds
+ash.c, 6128, Dead store, overflow
+init.c, 716, Uninitialized memory, pointer dereference
+whois.c, 58, Uninitialized memory, overflow
+mail.c, 52, Uninitialized memory, overflow
+diff.c, 1047, Uninitialized memory, array bounds
+getsebool.c, 77, Xfree, pointer dereference
+modprobe.c, 701, Double free, assertion
+od_bloaty.c, 571, Check stdlibfunc return, pointer dereference
+d6_dhcpc.c, 284, Uninitialized memory, overflow
+sed.c, 1324, Case termination, assertion
+klogd.c, 130, Check stdlibfunc return, assertion
+httpd.c, 1687, Check stdlibfunc return, overflow
+man.c, 128, Check stdlibfunc return, overflow
+diff.c, 932, Xfree, assertion
+crond.c, 557, Uninitialized memory, pointer dereference
+modinfo.c, 123, Xfree, assertion
+ntpd.c, 564, Uninitialized memory, overflow
+ifupdown.c, 1273, Check stdlibfunc return, assertion
+iproute.c, 729, Uninitialized memory, overflow
+decompress_gunzip.c, 391, Uninitialized memory, array bounds
+bb_getgroups.c, 15, Dead store, pointer dereference
+sed.c, 478, Xfree, assertion
+pwd_grp.c, 529, Xfree, assertion
+less.c, 646, Uninitialized memory, array bounds
+fdisk_sun.c, 464, Uninitialized memory, array bounds
+brctl.c, 371, Uninitialized memory, array bounds
+mpstat.c, 341, Dead store, array bounds
+cat.c, 154, Uninitialized memory, overflow
+uniq.c, 120, Xfree, assertion
+fdisk_gpt.c, 89, Uninitialized memory, overflow
+telnet.c, 655, Dead store, pointer dereference
+mdev.c, 701, Uninitialized memory, array bounds
+mount.c, 2059, Check stdlibfunc return, pointer dereference
+telnetd.c, 305, Uninitialized memory, overflow
+telnetd.c, 390, Uninitialized memory, overflow
+iproute.c, 157, Uninitialized memory, overflow
+obscure.c, 121, Xfree, assertion
+bootchartd.c, 427, Check stdlibfunc return, pointer dereference
+get_last_path_component.c, 27, Check stdlibfunc return, overflow
+ifconfig.c, 370, Uninitialized memory, pointer dereference
+mdev.c, 832, Uninitialized memory, overflow
+acpid.c, 363, Uninitialized memory, pointer dereference
+ls.c, 563, Uninitialized memory, overflow
+get_header_ar.c, 101, Uninitialized memory, pointer dereference
+fdisk_osf.c, 733, Uninitialized memory, pointer dereference
+mdev.c, 1103, Check stdlibfunc return, pointer dereference
+rx.c, 111, Uninitialized memory, overflow
+sed.c, 1455, Xfree, assertion
+ether-wake.c, 260, Uninitialized memory, overflow
+wget.c, 699, Check stdlibfunc return, overflow
+rfkill.c, 113, Uninitialized memory, overflow
+ps.c, 612, Uninitialized memory, overflow
+hexdump.c, 199, Xfree, assertion
+pstree.c, 234, Uninitialized memory, pointer dereference
+fdisk_sgi.c, 536, Uninitialized memory, array bounds
+find.c, 652, Double free, pointer dereference
+ifupdown.c, 423, Xfree, assertion
+awk.c, 2618, Double free, assertion
+lineedit.c, 1491, Xfree, assertion
+mdev.c, 984, Uninitialized memory, overflow
+sed.c, 1366, Case termination, pointer dereference
+ash.c, 9252, Uninitialized memory, overflow
+dpkg.c, 613, Uninitialized memory, pointer dereference
+seq.c, 66, Case termination, overflow
+mdev.c, 388, Check stdlibfunc return, overflow
+httpd.c, 723, Uninitialized memory, overflow
+ls.c, 714, Xfree, assertion
+passwd.c, 243, Xfree, assertion
+ipaddress.c, 140, Uninitialized memory, pointer dereference
+add-remove-shell.c, 104, Xfree, assertion
+login.c, 523, Uninitialized memory, pointer dereference
+ash.c, 7895, Check stdlibfunc return, overflow
+fdisk_sun.c, 436, Uninitialized memory, array bounds
+pipe_progress.c, 36, Uninitialized memory, overflow
+man.c, 171, Check stdlibfunc return, overflow
+od_bloaty.c, 1164, Check stdlibfunc return, overflow
+ash.c, 7634, Dead store, pointer dereference
+tls_pstm.c, 642, Dead store, pointer dereference
+devmem.c, 65, Dead store, array bounds
+socket.c, 103, Uninitialized memory, overflow
+fbsplash.c, 426, Uninitialized memory, overflow
+hush.c, 5672, Check stdlibfunc return, overflow
+ash.c, 4521, Uninitialized memory, overflow
+ash.c, 12713, Uninitialized memory, pointer dereference
+ash.c, 5322, Case termination, pointer dereference
+wc.c, 176, Uninitialized memory, overflow
+lineedit.c, 872, Xfree, assertion
+acpid.c, 381, Xfree, assertion
+sed.c, 1472, Check stdlibfunc return, overflow
+vi.c, 1417, Check stdlibfunc return, overflow
+runsv.c, 385, Uninitialized memory, pointer dereference
+ifupdown.c, 375, Check stdlibfunc return, overflow
+unzip.c, 842, Uninitialized memory, overflow
+sed.c, 203, Check stdlibfunc return, assertion
+crond.c, 513, Uninitialized memory, pointer dereference
+ntpd.c, 1841, Uninitialized memory, pointer dereference
+vi.c, 1306, Uninitialized memory, overflow
+vi.c, 1901, Uninitialized memory, overflow
+xz_dec_stream.c, 668, Case termination, pointer dereference
+inet_common.c, 157, Uninitialized memory, overflow
+tls_pstm.c, 269, Uninitialized memory, array bounds
+logread.c, 222, Xfree, assertion
+awk.c, 1751, Uninitialized memory, pointer dereference
+renice.c, 93, Check stdlibfunc return, overflow
+ntpd.c, 1237, Uninitialized memory, array bounds
+nmeter.c, 909, Uninitialized memory, pointer dereference
+diff.c, 623, Uninitialized memory, overflow
+ipaddress.c, 312, Uninitialized memory, overflow
+rpm.c, 485, Double free, assertion
+rx.c, 201, Uninitialized memory, array bounds
+procps.c, 517, Uninitialized memory, pointer dereference
+sv.c, 546, Case termination, overflow
+acpid.c, 231, Uninitialized memory, pointer dereference
+blocksort.c, 248, Uninitialized memory, array bounds
+devfsd.c, 540, Check stdlibfunc return, assertion
+hush.c, 4927, Check stdlibfunc return, overflow
+fdisk_sgi.c, 503, Uninitialized memory, overflow
+diff.c, 647, Uninitialized memory, array bounds
+netstat.c, 319, Uninitialized memory, overflow
+vi.c, 2054, Check stdlibfunc return, pointer dereference
+bzlib.c, 130, Case termination, pointer dereference
+which.c, 67, Xfree, assertion
+i2c_tools.c, 705, Uninitialized memory, overflow
+blocksort.c, 913, Uninitialized memory, array bounds
+wget.c, 1328, Uninitialized memory, assertion
+adduser.c, 270, Xfree, assertion
+ipaddress.c, 230, Uninitialized memory, overflow
+hdparm.c, 1996, Uninitialized memory, overflow
+lsscsi.c, 74, Check stdlibfunc return, overflow
+pmap.c, 69, Uninitialized memory, overflow
+procps.c, 273, Check stdlibfunc return, assertion
+mount.c, 1868, Xfree, assertion
+fdisk_sun.c, 427, Uninitialized memory, overflow
+tune2fs.c, 114, Xfree, assertion
+xfuncs_printf.c, 348, Check stdlibfunc return, overflow
+awk.c, 3236, Check stdlibfunc return, assertion
+lineedit.c, 1408, Uninitialized memory, overflow
+reformime.c, 235, Xfree, assertion
+i2c_tools.c, 1188, Uninitialized memory, overflow
+init.c, 242, Uninitialized memory, overflow
+diff.c, 640, Uninitialized memory, pointer dereference
+ash.c, 1922, Xfree, pointer dereference
+dpkg.c, 332, Xfree, assertion
+diff.c, 625, Uninitialized memory, overflow
+ipaddress.c, 298, Uninitialized memory, overflow
+awk.c, 2412, Uninitialized memory, overflow
+swaponoff.c, 289, Check stdlibfunc return, assertion
+awk.c, 1932, Uninitialized memory, pointer dereference
+hush.c, 9848, Uninitialized memory, overflow
+iptunnel.c, 346, Uninitialized memory, pointer dereference
+ntpd.c, 1387, Uninitialized memory, array bounds
+sendmail.c, 417, Xfree, assertion
+syslogd.c, 762, Uninitialized memory, pointer dereference
+hush.c, 10046, Xfree, assertion
+loadfont.c, 322, Uninitialized memory, overflow
+wget.c, 457, Check stdlibfunc return, pointer dereference
+lsusb.c, 54, Uninitialized memory, overflow
+ln.c, 116, Xfree, assertion
+decompress_gunzip.c, 470, Uninitialized memory, pointer dereference
+hush.c, 4786, Check stdlibfunc return, overflow
+iproute.c, 972, Uninitialized memory, overflow
+fdisk.c, 2400, Uninitialized memory, array bounds
+loadfont.c, 211, Uninitialized memory, overflow
+uuencode.c, 221, Uninitialized memory, overflow
+sleep.c, 102, Check stdlibfunc return, overflow
+awk.c, 2325, Uninitialized memory, pointer dereference
+hush.c, 2273, Xfree, assertion
+pmap.c, 75, Uninitialized memory, overflow
+hush.c, 7326, Xfree, assertion
+data_extract_to_command.c, 89, Uninitialized memory, pointer dereference
+diff.c, 1003, Uninitialized memory, array bounds
+iptunnel.c, 242, Check stdlibfunc return, pointer dereference
+hush.c, 4692, Uninitialized memory, pointer dereference
+mount.c, 2260, Dead store, pointer dereference
+iproute.c, 91, Uninitialized memory, overflow
+diff.c, 860, Uninitialized memory, overflow
+md5_sha1_sum.c, 239, Uninitialized memory, overflow
+common.c, 607, Uninitialized memory, overflow
+vi.c, 1270, Uninitialized memory, overflow
+xconnect.c, 221, Check stdlibfunc return, overflow
+syslogd.c, 757, Uninitialized memory, overflow
+powertop.c, 805, Uninitialized memory, array bounds
+flash_eraseall.c, 153, Uninitialized memory, overflow
+lsusb.c, 49, Uninitialized memory, overflow
+lspci.c, 70, Uninitialized memory, overflow
+getsebool.c, 61, Uninitialized memory, pointer dereference
+dpkg.c, 789, Dead store, pointer dereference
+fdisk.c, 2395, Uninitialized memory, array bounds
+d6_dhcpc.c, 746, Uninitialized memory, overflow
+start_stop_daemon.c, 203, Uninitialized memory, overflow
+loadfont.c, 530, Xfree, assertion
+top.c, 554, Check stdlibfunc return, overflow
+uevent.c, 115, Check stdlibfunc return, overflow
+mpstat.c, 508, Uninitialized memory, pointer dereference
+dpkg.c, 974, Case termination, overflow
+i2c_tools.c, 1150, Uninitialized memory, pointer dereference
+bb_askpass.c, 53, Uninitialized memory, overflow
+md5_sha1_sum.c, 232, Uninitialized memory, pointer dereference
+ll_map.c, 84, Uninitialized memory, overflow
+fsck.c, 458, Uninitialized memory, pointer dereference
+dump.c, 222, Case termination, pointer dereference
+lspci.c, 63, Uninitialized memory, overflow
+lineedit.c, 1977, Uninitialized memory, overflow
+xfuncs_printf.c, 548, Uninitialized memory, pointer dereference
+wget.c, 769, Check stdlibfunc return, overflow
+devfsd.c, 1826, Uninitialized memory, overflow
+iptunnel.c, 252, Check stdlibfunc return, pointer dereference
+mkfs_vfat.c, 646, Xfree, assertion
+hexedit.c, 146, Uninitialized memory, overflow
+vi.c, 3449, Uninitialized memory, overflow
+get_cpu_count.c, 45, Check stdlibfunc return, assertion
+hush.c, 8953, Case termination, pointer dereference
+lineedit.c, 1436, Uninitialized memory, array bounds
+chpasswd.c, 112, Xfree, assertion
+d6_dhcpc.c, 399, Xfree, assertion
+ls.c, 965, Uninitialized memory, overflow
+ln.c, 105, Xfree, assertion
+lpr.c, 110, Check stdlibfunc return, pointer dereference
+add-remove-shell.c, 130, Xfree, assertion
+ntpd.c, 820, Uninitialized memory, overflow
+setfiles.c, 262, Check stdlibfunc return, overflow
+lineedit.c, 1984, Uninitialized memory, overflow
+ash.c, 4568, Uninitialized memory, overflow
+iplink.c, 140, Uninitialized memory, overflow
+vi.c, 1487, Uninitialized memory, pointer dereference
+decompress_gunzip.c, 338, Uninitialized memory, array bounds
+dpkg.c, 1393, Uninitialized memory, pointer dereference
+ed.c, 241, Check stdlibfunc return, overflow
+devfsd.c, 1164, Uninitialized memory, pointer dereference
+awk.c, 2457, Uninitialized memory, overflow
+mpstat.c, 633, Dead store, pointer dereference
+hush.c, 4266, Xfree, assertion
+man.c, 324, Check stdlibfunc return, pointer dereference
+grep.c, 460, Xfree, assertion
+rfkill.c, 131, Uninitialized memory, overflow
+flashcp.c, 157, Uninitialized memory, pointer dereference
+hush.c, 5728, Dead store, overflow
+ash.c, 12769, Uninitialized memory, pointer dereference
+fdisk_sun.c, 215, Check stdlibfunc return, array bounds
+wget.c, 324, Check stdlibfunc return, overflow
+ntpd.c, 1947, Dead store, pointer dereference
+getopt.c, 374, Check stdlibfunc return, pointer dereference
+ash.c, 7404, Xfree, assertion
+bbunzip.c, 171, Dead store, overflow
+man.c, 123, Check stdlibfunc return, overflow
+dump.c, 485, Uninitialized memory, pointer dereference
+hush.c, 9050, Case termination, overflow
+popmaildir.c, 244, Xfree, assertion
+decompress_unlzma.c, 226, Uninitialized memory, pointer dereference
+vi.c, 1345, Uninitialized memory, overflow
+dpkg.c, 1202, Check stdlibfunc return, assertion
+fdisk_sgi.c, 561, Uninitialized memory, array bounds
+less.c, 358, Uninitialized memory, overflow
+decompress_unxz.c, 57, Uninitialized memory, overflow
+iproute.c, 238, Uninitialized memory, overflow
+man.c, 349, Xfree, assertion
+cttyhack.c, 139, Check stdlibfunc return, overflow
+netstat.c, 676, Xfree, assertion
+modprobe.c, 315, Uninitialized memory, pointer dereference
+lineedit.c, 2135, Uninitialized memory, array bounds
+diff.c, 551, Uninitialized memory, pointer dereference
+ipaddress.c, 181, Uninitialized memory, overflow
+ipaddress.c, 256, Uninitialized memory, overflow
+dd.c, 322, Uninitialized memory, overflow
+hexdump.c, 84, Check stdlibfunc return, assertion
+vi.c, 1465, Uninitialized memory, overflow
+sulogin.c, 85, Check stdlibfunc return, pointer dereference
+dnsd.c, 565, Uninitialized memory, overflow
+mdev.c, 322, Double free, pointer dereference
+acpid.c, 190, Check stdlibfunc return, pointer dereference
+ls.c, 652, Dead store, overflow
+netstat.c, 635, Uninitialized memory, overflow
+vi.c, 1354, Uninitialized memory, overflow
+ash.c, 9439, Check stdlibfunc return, overflow
+awk.c, 2443, Uninitialized memory, overflow
+sestatus.c, 147, Uninitialized memory, array bounds
+fsck_minix.c, 624, Uninitialized memory, overflow
+interface.c, 574, Uninitialized memory, overflow
+svlogd.c, 796, Check stdlibfunc return, overflow
+reformime.c, 218, Check stdlibfunc return, assertion
+rpm.c, 536, Uninitialized memory, overflow
+fbsplash.c, 449, Check stdlibfunc return, assertion
+diff.c, 703, Xfree, assertion
+iptunnel.c, 497, Uninitialized memory, pointer dereference
+hush.c, 3120, Xfree, assertion
+readprofile.c, 264, Uninitialized memory, overflow
+dpkg.c, 317, Check stdlibfunc return, overflow
+procps.c, 224, Check stdlibfunc return, overflow
+signals.c, 115, Uninitialized memory, overflow
+stty.c, 1432, Uninitialized memory, overflow
+crond.c, 466, Uninitialized memory, pointer dereference
+ipaddress.c, 174, Uninitialized memory, overflow
+getopt32.c, 542, Uninitialized memory, pointer dereference
+modutils.c, 63, Double free, pointer dereference
+open_transformer.c, 358, Xfree, assertion
+ash.c, 10544, Xfree, assertion
+setsebool.c, 48, Uninitialized memory, pointer dereference
+less.c, 1597, Check stdlibfunc return, pointer dereference
+hush.c, 1542, Check stdlibfunc return, assertion
+ntpd.c, 1010, Xfree, assertion
+awk.c, 2444, Uninitialized memory, overflow
+dpkg.c, 929, Xfree, assertion
+tls_pstm.c, 672, Dead store, pointer dereference
+ls.c, 886, Dead store, pointer dereference
+fdisk_osf.c, 467, Dead store, overflow
+ipaddress.c, 539, Uninitialized memory, overflow
+packet.c, 208, Uninitialized memory, overflow
+ll_map.c, 55, Uninitialized memory, overflow
+powertop.c, 847, Uninitialized memory, overflow
+vi.c, 3015, Uninitialized memory, overflow
+iptunnel.c, 506, Uninitialized memory, overflow
+ipaddress.c, 353, Uninitialized memory, overflow
+sendmail.c, 257, Check stdlibfunc return, pointer dereference
+swaponoff.c, 286, Xfree, assertion
+get_header_ar.c, 121, Uninitialized memory, pointer dereference
+more.c, 217, Check stdlibfunc return, assertion
+tr.c, 261, Check stdlibfunc return, overflow
+mdev.c, 336, Check stdlibfunc return, overflow
+modutils.c, 38, Uninitialized memory, pointer dereference
+devfsd.c, 499,  Cfg innnvoid function, assertion
+vi.c, 2222, Check stdlibfunc return, overflow
+awk.c, 833, Double free, pointer dereference
+dd.c, 561, Xfree, assertion
+top.c, 580, Uninitialized memory, overflow
+d6_packet.c, 71, Uninitialized memory, overflow
+iostat.c, 484, Uninitialized memory, pointer dereference
+fdisk_sgi.c, 556, Uninitialized memory, array bounds
+wget.c, 518, Check stdlibfunc return, pointer dereference
+dpkg.c, 738, Xfree, assertion
+lineedit.c, 1471, Check stdlibfunc return, assertion
+svlogd.c, 786, Double free, pointer dereference
+mount.c, 1954, Dead store, pointer dereference
+mail.c, 53, Uninitialized memory, overflow
+uudecode.c, 144, Xfree, assertion
+diff.c, 1046, Check stdlibfunc return, array bounds
+wget.c, 1307, Xfree, assertion
+ps.c, 794, Uninitialized memory, pointer dereference
+runsv.c, 244, Uninitialized memory, overflow
+getsebool.c, 78, Xfree, assertion
+modprobe.c, 294, Uninitialized memory, pointer dereference
+decompress_unxz.c, 133, Xfree, assertion
+ash.c, 5926, Check stdlibfunc return, pointer dereference
+ipaddress.c, 160, Uninitialized memory, overflow
+fdisk_osf.c, 744, Uninitialized memory, pointer dereference
+factor.c, 209, Xfree, assertion
+mdev.c, 345, Uninitialized memory, pointer dereference
+data_extract_to_command.c, 97, Uninitialized memory, pointer dereference
+devfsd.c, 610, Uninitialized memory, overflow
+diff.c, 931, Xfree, assertion
+crond.c, 556, Uninitialized memory, pointer dereference
+nmeter.c, 450, Uninitialized memory, pointer dereference
+dpkg.c, 1577, Xfree, assertion
+hush.c, 7239, Xfree, assertion
+init.c, 724, Double free, assertion
+ftpd.c, 511, Xfree, assertion
+nc.c, 218, Dead store, pointer dereference
+mount.c, 519, Xfree, assertion
+bbunzip.c, 356, Dead store, overflow
+expr.c, 288, Uninitialized memory, overflow
+modprobe-small.c, 634, Xfree, assertion
+sed.c, 1278, Case termination, pointer dereference
+modutils.c, 246, Xfree, assertion
+xreadlink.c, 84, Xfree, assertion
+crond.c, 440, Uninitialized memory, pointer dereference
+iptunnel.c, 484, Uninitialized memory, overflow
+vi.c, 1119, Uninitialized memory, overflow
+lineedit.c, 2026, Check stdlibfunc return, pointer dereference
+modprobe-small.c, 525, Check stdlibfunc return, assertion
+fbset.c, 415, Dead store, overflow
+ash.c, 2624, Case termination, pointer dereference
+devfsd.c, 650, Uninitialized memory, pointer dereference
+arping.c, 363, Uninitialized memory, overflow
+ntpd.c, 1032, Uninitialized memory, overflow
+telnet.c, 656, Dead store, pointer dereference
+dhcpc.c, 374, Xfree, assertion
+tcpudp.c, 293, Dead store, overflow
+inetd.c, 769, Xfree, assertion
+hexdump.c, 201, Check stdlibfunc return, assertion
+decompress_bunzip2.c, 331, Uninitialized memory, array bounds
+bootchartd.c, 313, Xfree, assertion
+fdisk_sgi.c, 530, Uninitialized memory, array bounds
+modprobe-small.c, 815, Xfree, assertion
+pwd_grp.c, 125, Double free, pointer dereference
+xfuncs.c, 250, Check stdlibfunc return, pointer dereference
+iplink.c, 123, Uninitialized memory, overflow
+popmaildir.c, 258, Check stdlibfunc return, assertion
+awk.c, 2301, Uninitialized memory, array bounds
+sort.c, 192, Uninitialized memory, overflow
+od_bloaty.c, 667, Check stdlibfunc return, pointer dereference
+ash.c, 5746, Xfree, assertion
+tftp.c, 896, Check stdlibfunc return, pointer dereference
+zcip.c, 147, Uninitialized memory, overflow
+dump.c, 230, Case termination, pointer dereference
+inetd.c, 1677, Uninitialized memory, overflow
+hush.c, 2234, Xfree, assertion
+mount.c, 2156, Check stdlibfunc return, overflow
+httpd.c, 733, Uninitialized memory, overflow
+fsck.c, 1078, Check stdlibfunc return, pointer dereference
+get_header_ar.c, 100, Uninitialized memory, pointer dereference
+loadfont.c, 149, Dead store, overflow
+nandwrite.c, 79, Uninitialized memory, overflow
+ifupdown.c, 378, Xfree, assertion
+dhcpc.c, 1435, Uninitialized memory, overflow
+ash.c, 9355, Xfree, assertion
+hush.c, 2790, Check stdlibfunc return, overflow
+mdev.c, 1102, Check stdlibfunc return, pointer dereference
+dpkg.c, 1314, Double free, assertion
+pipe_progress.c, 42, Uninitialized memory, overflow
+modutils.c, 27, Uninitialized memory, array bounds
+devfsd.c, 624, Case termination, pointer dereference
+dump.c, 618, Uninitialized memory, overflow
+tls_pstm_montgomery_reduce.c, 397, Dead store, pointer dereference
+login.c, 479, Uninitialized memory, overflow
+powertop.c, 327, Check stdlibfunc return, overflow
+dump.c, 142, Check stdlibfunc return, pointer dereference
+modprobe.c, 320, Uninitialized memory, overflow
+route.c, 651, Check stdlibfunc return, assertion
+seq.c, 60, Case termination, pointer dereference
+lineedit.c, 755, Uninitialized memory, overflow
+bbunzip.c, 342, Check stdlibfunc return, overflow
+netstat.c, 484, Uninitialized memory, overflow
+decompress_bunzip2.c, 726, Xfree, assertion
+procps.c, 199, Uninitialized memory, overflow
+hash_md5_sha.c, 648, Uninitialized memory, overflow
+interface.c, 882, Uninitialized memory, overflow
+sed.c, 1478, Xfree, assertion
+add-remove-shell.c, 107, Check stdlibfunc return, assertion
+chpst.c, 253, Uninitialized memory, pointer
+unzip.c, 844, Uninitialized memory, array bounds
+sort.c, 496, Xfree, pointer dereference
+sed.c, 193, Double free, pointer dereference
+passwd.c, 99, Xfree, assertion
+wget.c, 1038, Uninitialized memory, pointer dereference
+correct_password.c, 84, Xfree, assertion
+iplink.c, 109, Uninitialized memory, overflow
+nmeter.c, 907, Uninitialized memory, pointer dereference
+rpm.c, 165, Check stdlibfunc return, overflow
+hush.c, 5687, Check stdlibfunc return, overflow
+xargs.c, 745, Xfree, assertion
+pwd.c, 37, Check stdlibfunc return, pointer dereference
+ash.c, 11685, Check stdlibfunc return, overflow
+crond.c, 407, Double free, pointer dereference
+ipaddress.c, 318, Uninitialized memory, overflow
+ps.c, 457, Uninitialized memory, pointer dereference
+inetd.c, 1096, Double free, pointer dereference
+awk.c, 2424, Uninitialized memory, overflow
+ed.c, 628, Uninitialized memory, overflow
+hexedit.c, 437, Uninitialized memory, overflow
+dhcpc.c, 1148, Uninitialized memory, overflow
+d6_packet.c, 147, Uninitialized memory, overflow
+fsck_minix.c, 566, Uninitialized memory, overflow
+lineedit.c, 1284, Xfree, assertion
+date.c, 320, Dead store, overflow
+hush.c, 4553, Check stdlibfunc return, overflow
+pstree.c, 351, Uninitialized memory, overflow
+modprobe-small.c, 649, Check stdlibfunc return, assertion
+decompress_bunzip2.c, 811, Xfree, assertion
+fdisk_sun.c, 461, Uninitialized memory, overflow
+powertop.c, 341, Uninitialized memory, overflow
+awk.c, 1750, Uninitialized memory, overflow
+resize.c, 68, Uninitialized memory, overflow
+sv.c, 506, Check stdlibfunc return, pointer dereference
+iostat.c, 374, Check stdlibfunc return, assertion
+decompress_uncompress.c, 308, Xfree, assertion
+vi.c, 4134, Check stdlibfunc return, overflow
+fbset.c, 456, Uninitialized memory, overflow
+awk.c, 2401, Uninitialized memory, overflow
+ash.c, 6555, Case termination, pointer dereference
+mdev.c, 405, Uninitialized memory, pointer dereference
+devfsd.c, 1237, Uninitialized memory, overflow
+fdisk_osf.c, 784, Dead store, pointer dereference
+nohup.c, 76, Check stdlibfunc return, pointer dereference
+bzip2.c, 173, Xfree, assertion
+chattr.c, 62, Check stdlibfunc return, overflow
+dpkg.c, 1548, Check stdlibfunc return, assertion
+powertop.c, 777, Uninitialized memory, array bounds
+herror_msg.c, 25, Uninitialized memory, pointer dereference
+fdisk_sun.c, 579, Uninitialized memory, overflow
+decompress_uncompress.c, 307, Xfree, assertion
+loop.c, 184, Uninitialized memory, pointer dereference
+wget.c, 1329, Double free, assertion
+dpkg.c, 1439, Uninitialized memory, overflow
+fuser.c, 151, Uninitialized memory, overflow
+ln.c, 144, Xfree, assertion
+syslogd.c, 939, Uninitialized memory, overflow
+nandwrite.c, 83, Uninitialized memory, pointer dereference
+hdparm.c, 1980, Uninitialized memory, overflow
+dhcpc.c, 273, Case termination, overflow
+free.c, 68, Check stdlibfunc return, assertion
+procps.c, 278, Double free, assertion
+mdev.c, 665, Uninitialized memory, overflow
+udp_io.c, 143, Uninitialized memory, overflow
+fdisk_sun.c, 426, Uninitialized memory, array bounds
+iproute.c, 86, Uninitialized memory, overflow
+readprofile.c, 233, Uninitialized memory, NaN
+mpstat.c, 599, Check stdlibfunc return, overflow
+nmeter.c, 566, Uninitialized memory, pointer dereference
+ash.c, 5678, Uninitialized memory, pointer dereference
+man.c, 294, Uninitialized memory, overflow
+init.c, 243, Uninitialized memory, overflow
+lspci.c, 75, Uninitialized memory, overflow
+packet.c, 24, Case termination, pointer dereference
+decompress_gunzip.c, 428, Uninitialized memory, overflow
+dpkg.c, 792, Xfree, assertion
+stty.c, 847, Uninitialized memory, overflow
+httpd.c, 1078, Dead store, pointer dereference
+printenv.c, 50, Check stdlibfunc return, pointer dereference
+hush.c, 5389, Xfree, assertion
+isrv.c, 309, Uninitialized memory, pointer dereference
+ls.c, 727, Xfree, assertion
+powertop.c, 386, Uninitialized memory, overflow
+wget.c, 748, Xfree, assertion
+utmp.c, 23, Uninitialized memory, overflow
+awk.c, 2871, Check stdlibfunc return, pointer dereference
+unzip.c, 864, Uninitialized memory, overflow
+makedevs.c, 299, Xfree, assertion
+ed.c, 648, Check stdlibfunc return, overflow
+hush.c, 10124, Double free, pointer dereference
+readprofile.c, 240, Uninitialized memory, overflow
+httpd.c, 2448, Check stdlibfunc return, overflow
+lineedit.c, 1416, Xfree, array bounds
+fdisk_sun.c, 544, Uninitialized memory, array bounds
+ifplugd.c, 281, Uninitialized memory, overflow
+diff.c, 648, Uninitialized memory, pointer dereference
+wc.c, 226, Uninitialized memory, overflow
+lspci.c, 64, Uninitialized memory, overflow
+nmeter.c, 290, Uninitialized memory, overflow
+nmeter.c, 887, Check stdlibfunc return, pointer dereference
+od_bloaty.c, 1024, Uninitialized memory, array bounds
+fsck.c, 722, Case termination, pointer dereference
+arp.c, 481, Xfree, assertion
+vi.c, 4121, Check stdlibfunc return, overflow
+vi.c, 3239, Dead store, overflow
+ash.c, 12148, Dead store, pointer dereference
+traceroute.c, 1207, Xfree, assertion
+passwd.c, 159, Uninitialized memory, pointer dereference
+data_extract_to_command.c, 88, Uninitialized memory, pointer dereference
+compress.c, 469, Uninitialized memory, array bounds
+nmeter.c, 507, Uninitialized memory, pointer dereference
+fsck_minix.c, 530, Uninitialized memory, overflow
+loadfont.c, 489, Xfree, assertion
+tls_aes.c, 380, Uninitialized memory, array bounds
+dump.c, 73, Check stdlibfunc return, pointer dereference
+md5_sha1_sum.c, 238, Uninitialized memory, pointer dereference
+common.c, 606, Uninitialized memory, overflow
+vi.c, 1269, Uninitialized memory, overflow
+lineedit.c, 1423, Check stdlibfunc return, assertion
+rt_names.c, 43, Uninitialized memory, pointer dereference
+diff.c, 657, Uninitialized memory, pointer dereference
+xconnect.c, 400, Xfree, assertion
+d6_dhcpc.c, 1627, Dead store, overflow
+i2c_tools.c, 188, Uninitialized memory, overflow
+fdisk.c, 2392, Uninitialized memory, array bounds
+diff.c, 514, Uninitialized memory, pointer dereference
+date.c, 249, Uninitialized memory, overflow
+getopt32.c, 572, Uninitialized memory, pointer dereference
+man.c, 111, Xfree, assertion
+data_extract_to_command.c, 81, Uninitialized memory, overflow
+compress.c, 466, Uninitialized memory, overflow
+grep.c, 847, Double free, assertion
+init.c, 1161, Uninitialized memory, overflow
+hush.c, 2773, Check stdlibfunc return, overflow
+free.c, 113, Uninitialized memory, overflow
+dpkg.c, 975, Case termination, overflow
+smemcap.c, 89, Xfree, assertion
+nc_bloaty.c, 471, Xfree, assertion
+devfsd.c, 1685, Uninitialized memory, overflow
+md5_sha1_sum.c, 231, Uninitialized memory, overflow
+awk.c, 2084, Check stdlibfunc return, overflow
+unicode.c, 80, Check stdlibfunc return, pointer dereference
+sendmail.c, 400, Xfree, assertion
+nc_bloaty.c, 328, Xfree, assertion
+hush.c, 3291, Double free, pointer dereference
+lineedit.c, 1978, Uninitialized memory, overflow
+dpkg.c, 1927, Xfree, assertion
+ash.c, 4574, Uninitialized memory, pointer dereference
+fdisk.c, 2387, Uninitialized memory, array bounds
+diff.c, 523, Uninitialized memory, array bounds
+ifupdown.c, 1106, Xfree, assertion
+pw_encrypt_md5.c, 116, Uninitialized memory, overflow
+traceroute.c, 1209, Xfree, assertion
+lineedit.c, 2226, Dead store, overflow
+modutils.c, 64, Xfree, assertion
+ntpd.c, 2344, Uninitialized memory, overflow
+hush.c, 5956, Check stdlibfunc return, overflow
+devfsd.c, 1127, Double free, assertion
+mount.c, 558, Check stdlibfunc return, overflow
+hush.c, 8065, Xfree, assertion
+dump.c, 214, Case termination, pointer dereference
+verror_msg.c, 49, Uninitialized memory, overflow
+ash.c, 4583, Uninitialized memory, overflow
+ash.c, 13645, Uninitialized memory, pointer dereference
+uudecode.c, 221, Uninitialized memory, overflow
+dump.c, 400, Dead store, pointer dereference
+ftpd.c, 255, Xfree, assertion
+nmeter.c, 747, Uninitialized memory, overflow
+ed.c, 240, Case termination, overflow
+hush.c, 9604, Dead store, pointer dereference
+vi.c, 3710, Check stdlibfunc return, pointer dereference
+update_passwd.c, 119, Dead store, overflow
+mpstat.c, 960, Double free, pointer dereference
+ash.c, 6194, Double free, assertion
+iplink.c, 495, Uninitialized memory, overflow
+vi.c, 2709, Check stdlibfunc return, overflow
+decompress_gunzip.c, 1177, Uninitialized memory, overflow
+auto_string.c, 18, Xfree, array bounds
+telnetd.c, 511, Xfree, assertion
+ash.c, 5707, Uninitialized memory, overflow
+fdisk.c, 2482, Uninitialized memory, pointer dereference
+runsv.c, 548, Uninitialized memory, overflow
+hush.c, 3736, Xfree, assertion
+makedevs.c, 230, Uninitialized memory, overflow
+svlogd.c, 755, Double free, pointer dereference
+cut.c, 189, Double free, assertion
+vi.c, 1463, Uninitialized memory, overflow
+hush.c, 3166, Uninitialized memory, overflow
+awk.c, 2891, Check stdlibfunc return, pointer dereference
+devfsd.c, 601, Uninitialized memory, overflow
+diff.c, 910, Uninitialized memory, pointer dereference
+decompress_unlzma.c, 237, Dead store, overflow
+patch.c, 397, Xfree, assertion
+fdisk_sgi.c, 560, Uninitialized memory, array bounds
+ifupdown.c, 1305, Dead store, overflow
+nmeter.c, 524, Uninitialized memory, array bounds
+login.c, 273, Check stdlibfunc return, overflow
+sestatus.c, 122, Uninitialized memory, array bounds
+od_bloaty.c, 1228, Check stdlibfunc return, pointer dereference
+dhcpc.c, 442, Uninitialized memory, overflow
+hush.c, 5831, Check stdlibfunc return, overflow
+reformime.c, 192, Double free, assertion
+fsck.c, 496, Uninitialized memory, pointer dereference
+lineedit.c, 1125, Dead store, pointer dereference
+dpkg.c, 295, Check stdlibfunc return, overflow
+vi.c, 1464, Uninitialized memory, overflow
+awk.c, 2892, Double free, pointer dereference
+mount.c, 1346, Check stdlibfunc return, overflow
+lineedit.c, 2247, Uninitialized memory, overflow
+data_extract_to_command.c, 125, Uninitialized memory, array bounds
+crond.c, 560, Uninitialized memory, pointer dereference
+ftpd.c, 685, Check stdlibfunc return, overflow
+nproc.c, 37, Uninitialized memory, array bounds
+httpd.c, 921, Check stdlibfunc return, assertion
+ubi_tools.c, 361, Xfree, assertion
+fuser.c, 311, Uninitialized memory, overflow
+ipaddress.c, 545, Uninitialized memory, overflow
+mpstat.c, 957, Double free, pointer dereference
+whois.c, 54, Uninitialized memory, overflow
+httpd.c, 1469, Check stdlibfunc return, overflow
+diff.c, 702, Xfree, assertion
+unzip.c, 262, Uninitialized memory, overflow
+dpkg.c, 318, Check stdlibfunc return, overflow
+hush.c, 4140, Double free, pointer dereference
+ls.c, 533, Dead store, pointer dereference
+wget.c, 1273, Check stdlibfunc return, assertion
+awk.c, 718, Xfree, assertion
+executable.c, 67, Check stdlibfunc return, pointer dereference
+dpkg.c, 1709, Double free, assertion
+ash.c, 2282, Double free, assertion
+dump.c, 591, Uninitialized memory, overflow
+devfsd.c, 1729, Uninitialized memory, overflow
+script.c, 158, Uninitialized memory, overflow
+ntpd.c, 1011, Xfree, assertion
+get_header_tar.c, 119, Double free, pointer dereference
+sestatus.c, 155, Uninitialized memory, array bounds
+hush.c, 5976, Check stdlibfunc return, overflow
+tls_pstm_sqr_comba.c, 534, Dead store, pointer dereference
+vi.c, 4015, Case termination, pointer dereference
+vi.c, 1219, Uninitialized memory, overflow
+ipaddress.c, 538, Uninitialized memory, overflow
+tls_pstm.c, 560, Dead store, pointer dereference
+sed.c, 458, Case termination, overflow
+inetd.c, 1130, Xfree, assertion
+unzip.c, 269, Uninitialized memory, overflow
+loadkmap.c, 79, Uninitialized memory, overflow
+umount.c, 229, Xfree, assertion
+du.c, 205, Xfree, assertion
+sysctl.c, 118, Check stdlibfunc return, overflow
+uuencode.c, 143, Uninitialized memory, pointer dereference
+compress.c, 407, Uninitialized memory, array bounds
+wget.c, 805, Xfree, assertion
+runsv.c, 416, Case termination, pointer dereference
+unzip.c, 380, Xfree, assertion
+pw_encrypt_md5.c, 151, Uninitialized memory, array bounds
+touch.c, 127, Dead store, overflow
+powertop.c, 442, Uninitialized memory, pointer dereference
+data_extract_to_command.c, 111, Uninitialized memory, pointer dereference
+copyfd.c, 109, Dead store, overflow
+hwclock.c, 281, Uninitialized memory, overflow
+sed.c, 354, Xfree, assertion
+wget.c, 519, Check stdlibfunc return, pointer dereference
+hush.c, 3057, Xfree, assertion
+httpd.c, 593, Dead store, pointer dereference
+mail.c, 54, Uninitialized memory, array bounds
+last.c, 150, Case termination, overflow
+powertop.c, 855, Uninitialized memory, overflow
+last_fancy.c, 198, Uninitialized memory, overflow
+svlogd.c, 727, Uninitialized memory, overflow
+umount.c, 236, Double free, assertion
+cal.c, 276, Dead store, overflow
+mkfs_ext2.c, 368, Uninitialized memory, overflow
+lzop.c, 757, Xfree, assertion
+pw_encrypt_md5.c, 158, Uninitialized memory, overflow
+fsck.c, 318, Check stdlibfunc return, overflow
+data_extract_to_command.c, 96, Uninitialized memory, pointer dereference
+crond.c, 559, Uninitialized memory, pointer dereference
+ntpd.c, 1372, Uninitialized memory, array bounds
+nmeter.c, 451, Uninitialized memory, overflow
+bootchartd.c, 295, Xfree, assertion
+hush.c, 7238, Double free, assertion
+telnetd.c, 395, Uninitialized memory, overflow
+ipneigh.c, 119, Uninitialized memory, overflow
