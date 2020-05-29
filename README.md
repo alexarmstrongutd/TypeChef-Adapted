@@ -68,7 +68,7 @@
 
 ## Axtls-VAA header setup
 **Note you can skip this step if you opted for the repo header build**
-**When you need to modify
+**When you need to modify refer to the steps after step 12**
 1. Run ```sudo apt-get install libfcgi-dev```
 2. Run ```sudo apt-get install libzzip-dev```
 3. Run ```sudo apt-get install libsqlite-dev```
