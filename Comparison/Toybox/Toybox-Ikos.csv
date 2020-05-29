@@ -1,0 +1,349 @@
+Filename, Line #, TypeChef-Type, .\toybox_0_7_5_ikos.json-Type
+makedevs.c, 98, Uninitialized memory, ignored-call-side-effect
+netstat.c, 181, Check stdlibfunc return, ignored-call-side-effect
+expand.c, 110, Dead store, unreachable
+sort.c, 395, Double free, ignored-free
+sort.c, 258, Xfree, ignored-free
+find.c, 549, Check stdlibfunc return, buffer-overflow
+ls.c, 470, Uninitialized memory, ignored-call-side-effect
+password.c, 147, Check stdlibfunc return, ignored-call-side-effect
+ftpget.c, 179, Uninitialized memory, unreachable
+vmstat.c, 66, Check stdlibfunc return, ignored-call-side-effect
+getmountlist.c, 119, Double free, ignored-free
+args.c, 367, Uninitialized memory, shift-count
+ifconfig.c, 183, Uninitialized memory, ignored-call-side-effect
+sed.c, 942, Check stdlibfunc return, ignored-call-side-effect
+cal.c, 34, Uninitialized memory, signed-int-overflow
+xwrap.c, 213, Uninitialized memory, unreachable
+grep.c, 164, Uninitialized memory, signed-int-underflow
+mktemp.c, 44, Check stdlibfunc return, ignored-call-side-effect
+sed.c, 678, Check stdlibfunc return, unknown-memory-access
+mount.c, 384, Xfree, ignored-free
+ps.c, 1047, Dead store, unreachable
+lib.c, 301, Check stdlibfunc return, null-pointer-deref
+touch.c, 87, Check stdlibfunc return, unreachable
+date.c, 100, Check stdlibfunc return, ignored-call-side-effect
+comm.c, 61, Xfree, ignored-free
+oneit.c, 105, Check stdlibfunc return, unknown-memory-access
+cp.c, 394, Dead store, null-pointer-deref
+bzcat.c, 291, Uninitialized memory, buffer-overflow
+comm.c, 67, Xfree, ignored-free
+sed.c, 788, Xfree, free
+sysctl.c, 88, Xfree, ignored-free
+md5sum.c, 199, Uninitialized memory, null-pointer-deref
+linestack.c, 131, Check stdlibfunc return, ignored-call-side-effect
+mount.c, 254, Xfree, ignored-free
+ls.c, 377, Uninitialized memory, null-pointer-deref
+hwclock.c, 122, Uninitialized memory, signed-int-underflow
+pwd.c, 44, Uninitialized memory, ignored-call-side-effect
+sort.c, 159, Dead store, unknown-memory-access
+xxd.c, 93, Check stdlibfunc return, ignored-call-side-effect
+hwclock.c, 96, Xfree, ignored-free
+xwrap.c, 54, Double free, ignored-free
+chgrp.c, 100, Xfree, ignored-free
+getmountlist.c, 55, Check stdlibfunc return, ignored-call-side-effect
+umount.c, 149, Dead store, null-pointer-deref
+xwrap.c, 225, Uninitialized memory, unreachable
+sysctl.c, 87, Xfree, ignored-free
+cpio.c, 287, Uninitialized memory, unreachable
+bzcat.c, 304, Uninitialized memory, buffer-overflow
+date.c, 73, Check stdlibfunc return, ignored-call-side-effect
+grep.c, 254, Xfree, ignored-free
+sed.c, 668, Dead store, null-pointer-deref
+sort.c, 148, Uninitialized memory, signed-int-underflow
+makedevs.c, 55, Xfree, ignored-free
+date.c, 151, Uninitialized memory, unknown-memory-access
+xwrap.c, 166, Check stdlibfunc return, ignored-call-side-effect
+xwrap.c, 89, Check stdlibfunc return, ignored-call-side-effect
+lib.c, 920, Check stdlibfunc return, unknown-memory-access
+lib.c, 244, Check stdlibfunc return, ignored-call-side-effect
+xwrap.c, 234, Uninitialized memory, unreachable
+lib.c, 898, Check stdlibfunc return, unknown-memory-access
+which.c, 29, Check stdlibfunc return, ignored-call-side-effect
+grep.c, 288, Check stdlibfunc return, ignored-call-side-effect
+grep.c, 270, Check stdlibfunc return, ignored-call-side-effect
+seq.c, 66, Case termination, buffer-overflow
+xwrap.c, 56, Check stdlibfunc return, ignored-call-side-effect
+patch.c, 328, Xfree, ignored-free
+cal.c, 32, Uninitialized memory, ignored-call-side-effect
+inotifyd.c, 68, Uninitialized memory, ignored-call-side-effect
+lib.c, 907, Check stdlibfunc return, null-pointer-deref
+lsusb.c, 39, Check stdlibfunc return, ignored-call-side-effect
+xwrap.c, 501, Xfree, ignored-free
+sort.c, 138, Uninitialized memory, null-pointer-deref
+uniq.c, 116, Check stdlibfunc return, ignored-call-side-effect
+rmdir.c, 36, Check stdlibfunc return, ignored-call-side-effect
+readlink.c, 39, Xfree, ignored-free
+bzcat.c, 287, Uninitialized memory, buffer-overflow
+passwd.c, 147, Xfree, buffer-overflow
+cal.c, 41, Dead store, unknown-memory-access
+uuencode.c, 29, Dead store, buffer-overflow
+cut.c, 171, Check stdlibfunc return, ignored-call-side-effect
+sort.c, 401, Double free, ignored-free
+ls.c, 383, Uninitialized memory, buffer-overflow
+hwclock.c, 124, Check stdlibfunc return, ignored-call-side-effect
+lib.c, 187, Uninitialized memory, unknown-memory-access
+date.c, 144, Uninitialized memory, null-pointer-deref
+ftpget.c, 159, Check stdlibfunc return, unreachable
+cal.c, 50, Dead store, unknown-memory-access
+ps.c, 1064, Uninitialized memory, buffer-overflow
+passwd.c, 166, Xfree, ignored-free
+find.c, 354, Check stdlibfunc return, unknown-memory-access
+acpi.c, 39, Check stdlibfunc return, ignored-call-side-effect
+ls.c, 526, Xfree, free
+interestingtimes.c, 38, Check stdlibfunc return, ignored-call-side-effect
+lib.c, 332, Check stdlibfunc return, ignored-call-side-effect
+hwclock.c, 95, Xfree, ignored-free
+mount.c, 263, Check stdlibfunc return, ignored-call-side-effect
+lib.c, 993, Check stdlibfunc return, ignored-call-side-effect
+md5sum.c, 186, Uninitialized memory, buffer-overflow
+lib.c, 174, Uninitialized memory, ignored-call-side-effect
+netstat.c, 83, Uninitialized memory, null-pointer-deref
+date.c, 143, Dead store, null-pointer-deref
+xwrap.c, 537, Double free, ignored-free
+xargs.c, 197, Xfree, ignored-free
+ps.c, 910, Dead store, null-pointer-deref
+xwrap.c, 232, Uninitialized memory, unreachable
+lsattr.c, 271, Xfree, ignored-free
+xwrap.c, 785, Uninitialized memory, buffer-overflow
+sort.c, 382, Double free, unknown-memory-access
+hwclock.c, 74, Check stdlibfunc return, ignored-call-side-effect
+mount.c, 107, Check stdlibfunc return, ignored-call-side-effect
+tac.c, 41, Xfree, ignored-free
+df.c, 109, Dead store, null-pointer-deref
+lib.c, 527, Xfree, ignored-free
+uudecode.c, 39, Check stdlibfunc return, ignored-call-side-effect
+comm.c, 56, Uninitialized memory, ignored-call-side-effect
+umount.c, 133, Xfree, ignored-free
+date.c, 89, Check stdlibfunc return, ignored-call-side-effect
+nbd_client.c, 83, Check stdlibfunc return, ignored-call-side-effect
+cpio.c, 277, Xfree, ignored-free
+ln.c, 86, Xfree, ignored-free
+xwrap.c, 499, Double free, ignored-free
+uniq.c, 118, Xfree, ignored-free
+dmesg.c, 69, Check stdlibfunc return, ignored-call-side-effect
+hwclock.c, 121, Uninitialized memory, signed-int-underflow
+xwrap.c, 150, Check stdlibfunc return, ignored-call-side-effect
+patch.c, 429, Xfree, ignored-free
+date.c, 157, Uninitialized memory, unknown-memory-access
+date.c, 120, Check stdlibfunc return, ignored-call-side-effect
+lsattr.c, 295, Xfree, ignored-free
+ls.c, 424, Uninitialized memory, unknown-memory-access
+blkid.c, 159, Uninitialized memory, unknown-memory-access
+sort.c, 342, Check stdlibfunc return, unreachable
+hwclock.c, 43, Check stdlibfunc return, ignored-call-side-effect
+cut.c, 143, Check stdlibfunc return, null-pointer-deref
+xwrap.c, 228, Uninitialized memory, unreachable
+lib.c, 1020, Dead store, buffer-overflow
+ls.c, 381, Uninitialized memory, buffer-overflow
+lib.c, 185, Uninitialized memory, null-pointer-deref
+lib.c, 405, Check stdlibfunc return, ignored-call-side-effect
+touch.c, 70, Check stdlibfunc return, unreachable
+bzcat.c, 658, Double free, null-pointer-deref
+modinfo.c, 94, Xfree, ignored-free
+touch.c, 124, Uninitialized memory, ignored-call-side-effect
+bzcat.c, 302, Uninitialized memory, buffer-overflow
+passwd.c, 164, Uninitialized memory, ignored-call-side-effect
+ls.c, 524, Double free, null-pointer-deref
+getmountlist.c, 41, Xfree, ignored-free
+interestingtimes.c, 40, Check stdlibfunc return, ignored-call-side-effect
+modinfo.c, 106, Check stdlibfunc return, unknown-memory-access
+sort.c, 259, Xfree, ignored-free
+lsusb.c, 41, Xfree, ignored-free
+ftpget.c, 178, Uninitialized memory, unreachable
+sed.c, 618, Xfree, ignored-free
+nl.c, 70, Check stdlibfunc return, ignored-call-side-effect
+env.c, 50, Check stdlibfunc return, buffer-overflow
+grep.c, 206, Check stdlibfunc return, ignored-call-side-effect
+ps.c, 726, Check stdlibfunc return, signed-int-overflow
+tail.c, 195, Xfree, unknown-memory-access
+ls.c, 86, Check stdlibfunc return, buffer-overflow
+lib.c, 1155, Uninitialized memory, null-pointer-deref
+seq.c, 51, Check stdlibfunc return, ignored-call-side-effect
+od.c, 109, Dead store, shift-count
+xxd.c, 129, Check stdlibfunc return, ignored-call-side-effect
+ps.c, 950, Check stdlibfunc return, ignored-call-side-effect
+password.c, 179, Xfree, ignored-free
+sysctl.c, 32, Check stdlibfunc return, ignored-call-side-effect
+rfkill.c, 55, Dead store, buffer-overflow
+ifconfig.c, 417, Check stdlibfunc return, ignored-call-side-effect
+xwrap.c, 264, Uninitialized memory, unreachable
+chgrp.c, 86, Check stdlibfunc return, ignored-call-side-effect
+lsmod.c, 35, Check stdlibfunc return, ignored-call-side-effect
+xwrap.c, 223, Uninitialized memory, unreachable
+ls.c, 407, Uninitialized memory, null-pointer-deref
+sed.c, 924, Xfree, free
+ps.c, 655, Check stdlibfunc return, ignored-call-side-effect
+grep.c, 136, Dead store, unknown-memory-access
+login.c, 103, Uninitialized memory, ignored-call-side-effect
+sort.c, 134, Uninitialized memory, null-pointer-deref
+ifconfig.c, 299, Uninitialized memory, null-pointer-deref
+ftpget.c, 166, Dead store, buffer-overflow
+uudecode.c, 52, Xfree, ignored-free
+ls.c, 96, Uninitialized memory, ignored-call-side-effect
+ls.c, 436, Uninitialized memory, null-pointer-deref
+passwd.c, 159, Xfree, ignored-free
+ps.c, 926, Xfree, ignored-free
+find.c, 182, Xfree, ignored-free
+tail.c, 70, Xfree, ignored-free
+bzcat.c, 254, Uninitialized memory, buffer-overflow
+uniq.c, 58, Check stdlibfunc return, ignored-call-side-effect
+hwclock.c, 45, Check stdlibfunc return, ignored-call-side-effect
+xwrap.c, 226, Uninitialized memory, unreachable
+patch.c, 369, Dead store, signed-int-underflow
+lsattr.c, 277, Xfree, ignored-free
+grep.c, 253, Double free, unknown-memory-access
+grep.c, 262, Xfree, ignored-free
+sed.c, 397, Double free, ignored-free
+nl.c, 67, Xfree, ignored-free
+date.c, 148, Uninitialized memory, null-pointer-deref
+strings.c, 45, Check stdlibfunc return, unreachable
+grep.c, 158, Uninitialized memory, unknown-memory-access
+ps.c, 941, Check stdlibfunc return, ignored-call-side-effect
+ls.c, 509, Uninitialized memory, buffer-overflow
+chcon.c, 34, Xfree, ignored-free
+password.c, 184, Check stdlibfunc return, ignored-call-side-effect
+rfkill.c, 56, Dead store, buffer-overflow
+hwclock.c, 73, Xfree, ignored-call-side-effect
+md5sum.c, 190, Uninitialized memory, buffer-overflow
+rev.c, 34, Xfree, ignored-free
+ls.c, 457, Uninitialized memory, signed-int-overflow
+cpio.c, 236, Uninitialized memory, ignored-call-side-effect
+xwrap.c, 160, Check stdlibfunc return, ignored-call-side-effect
+blkid.c, 165, Check stdlibfunc return, ignored-call-side-effect
+lsattr.c, 164, Xfree, ignored-free
+xwrap.c, 212, Uninitialized memory, unreachable
+find.c, 484, Xfree, ignored-free
+netstat.c, 171, Uninitialized memory, signed-int-overflow
+ls.c, 154, Uninitialized memory, unknown-memory-access
+ps.c, 1044, Uninitialized memory, ignored-call-side-effect
+cpio.c, 235, Uninitialized memory, ignored-call-side-effect
+touch.c, 86, Check stdlibfunc return, unreachable
+paste.c, 49, Dead store, buffer-overflow
+lib.c, 58, Uninitialized memory, null-pointer-deref
+lib.c, 36, Uninitialized memory, unknown-memory-access
+cal.c, 42, Dead store, null-pointer-deref
+touch.c, 98, Uninitialized memory, unreachable
+tail.c, 174, Xfree, ignored-free
+grep.c, 172, Uninitialized memory, signed-int-overflow
+taskset.c, 109, Dead store, unknown-memory-access
+ls.c, 382, Uninitialized memory, buffer-overflow
+linestack.c, 97, Check stdlibfunc return, unreachable
+xxd.c, 120, Check stdlibfunc return, ignored-call-side-effect
+ls.c, 475, Uninitialized memory, ignored-call-side-effect
+grep.c, 359, Xfree, ignored-free
+date.c, 145, Uninitialized memory, unknown-memory-access
+kill.c, 132, Xfree, free
+ps.c, 1067, Uninitialized memory, unreachable
+bzcat.c, 299, Uninitialized memory, buffer-overflow
+comm.c, 75, Xfree, ignored-free
+xwrap.c, 571, Xfree, ignored-free
+passwd.c, 100, Xfree, ignored-free
+sed.c, 879, Double free, ignored-free
+password.c, 189, Check stdlibfunc return, ignored-call-side-effect
+ifconfig.c, 71, Check stdlibfunc return, ignored-call-side-effect
+xxd.c, 115, Check stdlibfunc return, ignored-call-side-effect
+patch.c, 291, Xfree, ignored-free
+xwrap.c, 155, Check stdlibfunc return, ignored-call-side-effect
+md5sum.c, 187, Uninitialized memory, null-pointer-deref
+ps.c, 1074, Uninitialized memory, unreachable
+which.c, 34, Uninitialized memory, ignored-call-side-effect
+interestingtimes.c, 223, Uninitialized memory, signed-int-overflow
+passwd.c, 160, Xfree, buffer-overflow
+args.c, 295, Check stdlibfunc return, null-pointer-deref
+ps.c, 905, Dead store, buffer-overflow
+which.c, 56, Xfree, ignored-free
+modinfo.c, 72, Uninitialized memory, ignored-call-side-effect
+xwrap.c, 233, Uninitialized memory, unreachable
+ps.c, 810, Check stdlibfunc return, ignored-call-side-effect
+grep.c, 152, Dead store, ignored-call-side-effect
+inotifyd.c, 100, Uninitialized memory, unknown-memory-access
+find.c, 221, Xfree, ignored-free
+xwrap.c, 786, Uninitialized memory, buffer-overflow
+seq.c, 65, Case termination, buffer-overflow
+ls.c, 469, Check stdlibfunc return, ignored-call-side-effect
+mount.c, 243, Dead store, buffer-overflow
+tac.c, 40, Double free, null-pointer-deref
+df.c, 110, Dead store, null-pointer-deref
+uudecode.c, 36, Xfree, ignored-free
+ifconfig.c, 317, Uninitialized memory, signed-int-overflow
+nl.c, 90, Check stdlibfunc return, null-pointer-deref
+md5sum.c, 160, Uninitialized memory, buffer-overflow
+mount.c, 354, Xfree, ignored-free
+ln.c, 77, Xfree, ignored-free
+printf.c, 101, Check stdlibfunc return, null-pointer-deref
+uudecode.c, 45, Dead store, unreachable
+uniq.c, 117, Check stdlibfunc return, ignored-call-side-effect
+ls.c, 351, Uninitialized memory, null-pointer-deref
+lsattr.c, 98, Uninitialized memory, ignored-call-side-effect
+ps.c, 923, Double free, null-pointer-deref
+umount.c, 143, Double free, free
+ls.c, 427, Uninitialized memory, unknown-memory-access
+ps.c, 820, Check stdlibfunc return, ignored-call-side-effect
+passwd.c, 188, Xfree, buffer-overflow
+md5sum.c, 200, Uninitialized memory, null-pointer-deref
+makedevs.c, 71, Check stdlibfunc return, ignored-call-side-effect
+llist.c, 23, Xfree, ignored-free
+id.c, 99, Dead store, null-pointer-deref
+xwrap.c, 263, Uninitialized memory, unreachable
+login.c, 156, Xfree, ignored-free
+mount.c, 368, Xfree, ignored-free
+sort.c, 152, Dead store, unknown-memory-access
+strings.c, 46, Uninitialized memory, unreachable
+ftpget.c, 144, Check stdlibfunc return, ignored-call-side-effect
+inotifyd.c, 53, Check stdlibfunc return, buffer-overflow
+sed.c, 929, Xfree, free
+passwd.c, 165, Xfree, ignored-free
+acpi.c, 38, Check stdlibfunc return, ignored-call-side-effect
+cut.c, 137, Xfree, free
+su.c, 68, Dead store, signed-int-overflow
+dmesg.c, 167, Check stdlibfunc return, ignored-call-side-effect
+bzcat.c, 710, Xfree, free
+ifconfig.c, 206, Check stdlibfunc return, ignored-call-side-effect
+cp.c, 436, Double free, ignored-free
+od.c, 179, Uninitialized memory, signed-int-overflow
+password.c, 187, Check stdlibfunc return, ignored-call-side-effect
+ls.c, 464, Uninitialized memory, null-pointer-deref
+mkpasswd.c, 50, Dead store, unknown-memory-access
+md5sum.c, 189, Uninitialized memory, null-pointer-deref
+netcat.c, 144, Check stdlibfunc return, ignored-call-side-effect
+grep.c, 205, Xfree, ignored-free
+netstat.c, 229, Check stdlibfunc return, ignored-call-side-effect
+date.c, 142, Uninitialized memory, unknown-memory-access
+ftpget.c, 141, Check stdlibfunc return, ignored-call-side-effect
+xargs.c, 196, Double free, null-pointer-deref
+ls.c, 518, Xfree, null-pointer-deref
+date.c, 218, Uninitialized memory, ignored-call-side-effect
+lib.c, 911, Check stdlibfunc return, unknown-memory-access
+lsusb.c, 35, Check stdlibfunc return, signed-int-overflow
+df.c, 108, Dead store, unknown-memory-access
+modinfo.c, 60, Uninitialized memory, pointer-comparison
+ifconfig.c, 307, Check stdlibfunc return, ignored-call-side-effect
+ls.c, 461, Uninitialized memory, unknown-memory-access
+seq.c, 53, Dead store, ignored-call-side-effect
+du.c, 72, Xfree, ignored-free
+lsattr.c, 160, Xfree, ignored-free
+dmesg.c, 62, Check stdlibfunc return, ignored-call-side-effect
+grep.c, 143, Check stdlibfunc return, unknown-memory-access
+args.c, 490, Uninitialized memory, buffer-overflow
+uniq.c, 119, Xfree, ignored-free
+dmesg.c, 66, Check stdlibfunc return, ignored-call-side-effect
+patch.c, 428, Xfree, ignored-free
+date.c, 156, Check stdlibfunc return, ignored-call-side-effect
+passwd.c, 186, Xfree, ignored-free
+bzcat.c, 253, Uninitialized memory, buffer-overflow
+grep.c, 168, Uninitialized memory, null-pointer-deref
+uniq.c, 57, Check stdlibfunc return, ignored-call-side-effect
+passwd.c, 93, Xfree, ignored-free
+xwrap.c, 227, Uninitialized memory, unreachable
+ps.c, 657, Check stdlibfunc return, ignored-call-side-effect
+xwrap.c, 677, Xfree, ignored-free
+password.c, 93, Check stdlibfunc return, ignored-call-side-effect
+xxd.c, 124, Uninitialized memory, ignored-call-side-effect
+ls.c, 479, Uninitialized memory, null-pointer-deref
+lib.c, 184, Uninitialized memory, null-pointer-deref
+patch.c, 421, Xfree, ignored-free
+ifconfig.c, 190, Uninitialized memory, buffer-overflow
+lib.c, 1183, Uninitialized memory, unknown-memory-access
+md5sum.c, 156, Uninitialized memory, buffer-overflow
+dmesg.c, 145, Uninitialized memory, null-pointer-deref

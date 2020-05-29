@@ -1,0 +1,12 @@
+Filename, Line #, TypeChef-Type, .\toybox_0_7_5_clang.json-Type
+ftpget.c, 203, Uninitialized memory, Logic error
+cpio.c, 287, Uninitialized memory, Logic error
+grep.c, 158, Uninitialized memory, Logic error
+hwclock.c, 115, Uninitialized memory, Logic error
+hwclock.c, 121, Uninitialized memory, Logic error
+ifconfig.c, 118, Dead store, Dead store
+grep.c, 136, Dead store, Dead store
+ls.c, 353, Uninitialized memory, Logic error
+date.c, 193, Dead store, Dead store
+ftpget.c, 183, Dead store, Dead store
+sed.c, 928, Dead store, Dead store
