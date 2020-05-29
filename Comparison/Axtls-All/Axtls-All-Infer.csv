@@ -1,0 +1,10 @@
+Filename, Line #, TypeChef-Type, .\axtls_2_1_4_infer.json-Type
+aes.c, 286, Uninitialized memory, UNINITIALIZED_VALUE
+aes.c, 326, Uninitialized memory, UNINITIALIZED_VALUE
+aes.c, 315, Uninitialized memory, UNINITIALIZED_VALUE
+axhttpd.c, 295, Dead store, DEAD_STORE
+aes.c, 335, Uninitialized memory, UNINITIALIZED_VALUE
+tls1.c, 1253, Dead store, DEAD_STORE
+aes.c, 301, Uninitialized memory, UNINITIALIZED_VALUE
+aes.c, 344, Uninitialized memory, UNINITIALIZED_VALUE
+aes.c, 276, Uninitialized memory, UNINITIALIZED_VALUE

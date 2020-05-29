@@ -1,0 +1,178 @@
+Filename, Line #, TypeChef-Type, .\axtls_2_1_4_cbmc.json-Type
+proc.c, 1104, Check stdlibfunc return, overflow
+p12.c, 423, Xfree, assertion
+sha256.c, 142, Uninitialized memory, overflow
+tls1.c, 987, Uninitialized memory, overflow
+proc.c, 322, Uninitialized memory, overflow
+loader.c, 319, Check stdlibfunc return, overflow
+aes.c, 394, Uninitialized memory, pointer dereference
+proc.c, 1076, Uninitialized memory, overflow
+sha256.c, 144, Uninitialized memory, overflow
+axhttpd.c, 584, Uninitialized memory, overflow
+p12.c, 224, Uninitialized memory, overflow
+aes.c, 313, Uninitialized memory, overflow
+tls1.c, 977, Uninitialized memory, overflow
+tls1.c, 1253, Dead store, pointer dereference
+proc.c, 759, Check stdlibfunc return, pointer dereference
+sha256.c, 139, Uninitialized memory, overflow
+sha1.c, 132, Uninitialized memory, array bounds
+asn1.c, 518, Xfree, assertion
+proc.c, 869, Uninitialized memory, overflow
+gen_cert.c, 166, Uninitialized memory, overflow
+axhttpd.c, 538, Uninitialized memory, overflow
+sha1.c, 126, Uninitialized memory, overflow
+gen_cert.c, 356, Uninitialized memory, pointer dereference
+proc.c, 90, Check stdlibfunc return, overflow
+crypto_misc.c, 93, Check stdlibfunc return, assertion
+asn1.c, 313, Xfree, assertion
+aes.c, 282, Uninitialized memory, overflow
+tls1.c, 871, Uninitialized memory, overflow
+openssl.c, 314, Check stdlibfunc return, assertion
+axhttpd.c, 104, Double free, assertion
+bigint.c, 101, Check stdlibfunc return, overflow
+crypto_misc.c, 246, Uninitialized memory, overflow
+sha1.c, 125, Uninitialized memory, overflow
+asn1.c, 307, Xfree, assertion
+tls1.c, 227, Double free, assertion
+bigint.c, 150, Xfree, assertion
+proc.c, 191, Uninitialized memory, overflow
+aes.c, 276, Uninitialized memory, array bounds
+aes.c, 345, Uninitialized memory, overflow
+sha1.c, 155, Uninitialized memory, overflow
+sha256.c, 148, Uninitialized memory, overflow
+axhttpd.c, 295, Dead store, pointer dereference
+md5.c, 207, Uninitialized memory, overflow
+loader.c, 260, Uninitialized memory, overflow
+tls1.c, 146, Check stdlibfunc return, overflow
+proc.c, 213, Uninitialized memory, pointer dereference
+proc.c, 879, Dead store, pointer dereference
+axhttpd.c, 606, Check stdlibfunc return, overflow
+asn1.c, 550, Xfree, assertion
+asn1.c, 498, Xfree, assertion
+sha256.c, 143, Uninitialized memory, overflow
+proc.c, 1124, Uninitialized memory, overflow
+asn1.c, 304, Xfree, assertion
+proc.c, 323, Uninitialized memory, overflow
+bigint.c, 149, Double free, assertion
+aes.c, 339, Uninitialized memory, overflow
+proc.c, 1058, Uninitialized memory, overflow
+aes.c, 326, Uninitialized memory, array bounds
+sha256.c, 145, Uninitialized memory, overflow
+tls1.c, 905, Uninitialized memory, pointer dereference
+tls1.c, 1245, Uninitialized memory, overflow
+aes.c, 260, Dead store, pointer dereference
+tls1.c, 843, Uninitialized memory, overflow
+hmac.c, 86, Uninitialized memory, overflow
+tls1.c, 1406, Case termination, pointer dereference
+p12.c, 421, Xfree, assertion
+aes.c, 301, Uninitialized memory, array bounds
+sha256.c, 136, Uninitialized memory, overflow
+sha512.c, 197, Dead store, pointer dereference
+tls1.c, 815, Uninitialized memory, overflow
+tls1.c, 965, Uninitialized memory, overflow
+aes.c, 336, Uninitialized memory, array bounds
+sha1.c, 144, Uninitialized memory, overflow
+aes.c, 286, Uninitialized memory, array bounds
+sha256.c, 146, Uninitialized memory, overflow
+loader.c, 460, Xfree, assertion
+loader.c, 71, Check stdlibfunc return, overflow
+hmac.c, 120, Uninitialized memory, overflow
+axhttpd.c, 221, Check stdlibfunc return, overflow
+proc.c, 1115, Uninitialized memory, overflow
+loader.c, 80, Check stdlibfunc return, pointer dereference
+hmac.c, 53, Uninitialized memory, overflow
+sha256.c, 133, Uninitialized memory, overflow
+hmac.c, 119, Uninitialized memory, overflow
+asn1.c, 314, Xfree, assertion
+proc.c, 1156, Check stdlibfunc return, pointer dereference
+proc.c, 201, Uninitialized memory, overflow
+tls1.c, 1393, Case termination, pointer dereference
+tls1.c, 937, Uninitialized memory, overflow
+proc.c, 1109, Uninitialized memory, pointer dereference
+tls1.c, 765, Uninitialized memory, pointer dereference
+aes.c, 292, Uninitialized memory, array bounds
+hmac.c, 54, Uninitialized memory, overflow
+proc.c, 1112, Uninitialized memory, overflow
+x509.c, 358, Double free, pointer dereference
+sha256.c, 134, Uninitialized memory, overflow
+bigint.c, 602, Dead store, pointer dereference
+proc.c, 842, Dead store, pointer dereference
+proc.c, 1150, Uninitialized memory, pointer dereference
+sha1.c, 176, Uninitialized memory, overflow
+asn1.c, 551, Xfree, assertion
+gen_cert.c, 169, Uninitialized memory, overflow
+hmac.c, 60, Uninitialized memory, array bounds
+sha256.c, 140, Uninitialized memory, overflow
+hmac.c, 126, Uninitialized memory, array bounds
+asn1.c, 305, Xfree, assertion
+x509.c, 357, Double free, pointer dereference
+proc.c, 104, Check stdlibfunc return, overflow
+aes.c, 274, Uninitialized memory, overflow
+aes.c, 327, Uninitialized memory, array bounds
+loader.c, 313, Check stdlibfunc return, array bounds
+axhttpd.c, 176, Check stdlibfunc return, overflow
+asn1.c, 303, Xfree, assertion
+hmac.c, 88, Uninitialized memory, overflow
+hmac.c, 87, Uninitialized memory, overflow
+crypto_misc.c, 256, Uninitialized memory, overflow
+p12.c, 414, Uninitialized memory, pointer dereference
+p12.c, 476, Xfree, assertion
+aes.c, 315, Uninitialized memory, array bounds
+proc.c, 1119, Check stdlibfunc return, overflow
+aes.c, 302, Uninitialized memory, overflow
+sha256.c, 137, Uninitialized memory, overflow
+tls1.c, 168, Check stdlibfunc return, overflow
+sha256.c, 147, Uninitialized memory, overflow
+asn1.c, 186, Uninitialized memory, overflow
+hmac.c, 93, Uninitialized memory, array bounds
+tls1.c, 1247, Uninitialized memory, overflow
+tls1.c, 256, Dead store, pointer dereference
+tls1_svr.c, 400, Uninitialized memory, pointer dereference
+proc.c, 497, Uninitialized memory, overflow
+md5.c, 194, Uninitialized memory, overflow
+proc.c, 1163, Check stdlibfunc return, assertion
+proc.c, 1047, Uninitialized memory, pointer dereference
+hmac.c, 121, Uninitialized memory, overflow
+tls1.c, 1252, Uninitialized memory, overflow
+sha256.c, 138, Uninitialized memory, overflow
+asn1.c, 315, Xfree, assertion
+proc.c, 1135, Check stdlibfunc return, assertion
+proc.c, 249, Uninitialized memory, overflow
+proc.c, 1204, Uninitialized memory, overflow
+tls1.c, 608, Check stdlibfunc return, overflow
+aes.c, 321, Uninitialized memory, overflow
+proc.c, 1072, Check stdlibfunc return, overflow
+proc.c, 868, Uninitialized memory, overflow
+hmac.c, 56, Uninitialized memory, overflow
+aes.c, 293, Uninitialized memory, array bounds
+sha1.c, 127, Uninitialized memory, overflow
+hmac.c, 122, Uninitialized memory, overflow
+hmac.c, 55, Uninitialized memory, overflow
+tdate_parse.c, 76, Check stdlibfunc return, overflow
+aes.c, 296, Uninitialized memory, overflow
+sha256.c, 135, Uninitialized memory, overflow
+aes.c, 450, Uninitialized memory, overflow
+axhttpd.c, 161, Check stdlibfunc return, overflow
+p12.c, 168, Check stdlibfunc return, overflow
+aes.c, 334, Uninitialized memory, array bounds
+sha1.c, 166, Uninitialized memory, overflow
+proc.c, 1154, Check stdlibfunc return, pointer dereference
+loader.c, 114, Check stdlibfunc return, overflow
+proc.c, 284, Uninitialized memory, overflow
+proc.c, 1088, Uninitialized memory, pointer dereference
+p12.c, 269, Uninitialized memory, overflow
+p12.c, 286, Check stdlibfunc return, overflow
+p12.c, 127, Xfree, assertion
+sha256.c, 141, Uninitialized memory, overflow
+tls1.c, 917, Uninitialized memory, overflow
+proc.c, 460, Uninitialized memory, overflow
+asn1.c, 306, Xfree, assertion
+gen_cert.c, 360, Uninitialized memory, pointer dereference
+tls1.c, 1250, Uninitialized memory, overflow
+proc.c, 1129, Check stdlibfunc return, assertion
+axhttpd.c, 389, Dead store, overflow
+aes.c, 344, Uninitialized memory, array bounds
+loader.c, 312, Check stdlibfunc return, array bounds
+hmac.c, 89, Uninitialized memory, overflow
+proc.c, 1079, Uninitialized memory, overflow
+proc.c, 790, Check stdlibfunc return, overflow

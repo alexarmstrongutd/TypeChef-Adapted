@@ -1,0 +1,4 @@
+Filename, Line #, TypeChef-Type, .\axtls_2_1_4_clang.json-Type
+htpasswd.c, 136, Uninitialized memory, Memory error
+axhttpd.c, 295, Dead store, Dead store
+tls1.c, 1253, Dead store, Dead store

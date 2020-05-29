@@ -1,0 +1,123 @@
+Filename, Line #, TypeChef-Type, .\axtls_2_1_4_ikos.json-Type
+proc.c, 1124, Uninitialized memory, ignored-call-side-effect
+tls1.c, 227, Double free, buffer-overflow
+axssl.c, 263, Xfree, unreachable
+proc.c, 759, Check stdlibfunc return, unknown-memory-access
+p12.c, 224, Uninitialized memory, unreachable
+proc.c, 201, Uninitialized memory, unknown-memory-access
+axhttpd.c, 176, Check stdlibfunc return, signed-int-overflow
+loader.c, 326, Check stdlibfunc return, ignored-call-side-effect
+asn1.c, 313, Xfree, free
+proc.c, 1163, Check stdlibfunc return, ignored-call-side-effect
+p12.c, 421, Xfree, ignored-free
+proc.c, 282, Uninitialized memory, ignored-call-side-effect
+proc.c, 1215, Check stdlibfunc return, ignored-call-side-effect
+p12.c, 168, Check stdlibfunc return, unknown-memory-access
+proc.c, 191, Uninitialized memory, unknown-memory-access
+proc.c, 491, Uninitialized memory, ignored-call-side-effect
+proc.c, 1104, Check stdlibfunc return, ignored-call-side-effect
+proc.c, 486, Uninitialized memory, ignored-call-side-effect
+proc.c, 1135, Check stdlibfunc return, ignored-call-side-effect
+loader.c, 312, Check stdlibfunc return, ignored-call-side-effect
+axssl.c, 229, Check stdlibfunc return, ignored-call-side-effect
+gen_cert.c, 356, Uninitialized memory, null-pointer-deref
+proc.c, 1109, Uninitialized memory, ignored-call-side-effect
+asn1.c, 307, Xfree, free
+hmac.c, 55, Uninitialized memory, null-pointer-deref
+axssl.c, 353, Uninitialized memory, unreachable
+tls1.c, 1406, Case termination, unknown-memory-access
+tls1.c, 987, Uninitialized memory, buffer-overflow
+proc.c, 166, Check stdlibfunc return, ignored-call-side-effect
+sha1.c, 127, Uninitialized memory, unknown-memory-access
+proc.c, 1115, Uninitialized memory, buffer-overflow
+hmac.c, 88, Uninitialized memory, null-pointer-deref
+loader.c, 260, Uninitialized memory, unreachable
+asn1.c, 304, Xfree, free
+loader.c, 80, Check stdlibfunc return, null-pointer-deref
+proc.c, 1154, Check stdlibfunc return, null-pointer-deref
+aes.c, 296, Uninitialized memory, buffer-overflow
+axtlswrap.c, 110, Dead store, unreachable
+x509.c, 357, Double free, null-pointer-deref
+proc.c, 277, Uninitialized memory, ignored-call-side-effect
+aes.c, 321, Uninitialized memory, null-pointer-deref
+axssl.c, 227, Check stdlibfunc return, ignored-call-side-effect
+loader.c, 282, Uninitialized memory, unreachable
+asn1.c, 314, Xfree, free
+bigint.c, 602, Dead store, null-pointer-deref
+proc.c, 842, Dead store, null-pointer-deref
+tls1.c, 905, Uninitialized memory, buffer-overflow
+tls1.c, 765, Uninitialized memory, null-pointer-deref
+axhttpd.c, 584, Uninitialized memory, null-pointer-deref
+proc.c, 1079, Uninitialized memory, null-pointer-deref
+proc.c, 790, Check stdlibfunc return, ignored-call-side-effect
+loader.c, 241, Check stdlibfunc return, unreachable
+aes.c, 260, Dead store, buffer-overflow
+axhttpd.c, 161, Check stdlibfunc return, signed-int-overflow
+proc.c, 213, Uninitialized memory, null-pointer-deref
+tls1.c, 1393, Case termination, null-pointer-deref
+loader.c, 460, Xfree, ignored-free
+axssl.c, 340, Uninitialized memory, ignored-call-side-effect
+loader.c, 275, Uninitialized memory, unreachable
+axssl.c, 294, Uninitialized memory, unreachable
+tls1.c, 1252, Uninitialized memory, buffer-overflow
+asn1.c, 550, Xfree, free
+proc.c, 589, Uninitialized memory, ignored-call-side-effect
+tls1.c, 1245, Uninitialized memory, buffer-overflow
+sha1.c, 126, Uninitialized memory, unknown-memory-access
+axhttpd.c, 295, Dead store, unknown-memory-access
+hmac.c, 89, Uninitialized memory, unknown-memory-access
+crypto_misc.c, 93, Check stdlibfunc return, ignored-call-side-effect
+proc.c, 1217, Check stdlibfunc return, ignored-call-side-effect
+aes.c, 282, Uninitialized memory, buffer-overflow
+asn1.c, 305, Xfree, free
+proc.c, 220, Uninitialized memory, ignored-call-side-effect
+proc.c, 447, Uninitialized memory, ignored-call-side-effect
+proc.c, 458, Uninitialized memory, ignored-call-side-effect
+x509.c, 358, Double free, unknown-memory-access
+proc.c, 879, Dead store, unknown-memory-access
+asn1.c, 315, Xfree, free
+aes.c, 450, Uninitialized memory, buffer-overflow
+proc.c, 1055, Uninitialized memory, ignored-call-side-effect
+proc.c, 104, Check stdlibfunc return, ignored-call-side-effect
+p12.c, 127, Xfree, free
+proc.c, 1156, Check stdlibfunc return, unknown-memory-access
+bigint.c, 149, Double free, unknown-memory-access
+p12.c, 423, Xfree, free
+tls1.c, 1250, Uninitialized memory, buffer-overflow
+proc.c, 1076, Uninitialized memory, unknown-memory-access
+asn1.c, 518, Xfree, free
+proc.c, 489, Uninitialized memory, ignored-call-side-effect
+loader.c, 327, Check stdlibfunc return, ignored-call-side-effect
+aes.c, 394, Uninitialized memory, buffer-overflow
+proc.c, 422, Uninitialized memory, ignored-call-side-effect
+bigint.c, 150, Xfree, ignored-free
+hmac.c, 121, Uninitialized memory, unknown-memory-access
+axssl.c, 347, Uninitialized memory, unreachable
+asn1.c, 498, Xfree, free
+tls1_svr.c, 400, Uninitialized memory, unknown-memory-access
+asn1.c, 303, Xfree, free
+loader.c, 274, Uninitialized memory, unreachable
+loader.c, 287, Uninitialized memory, unreachable
+aes.c, 339, Uninitialized memory, null-pointer-deref
+loader.c, 237, Check stdlibfunc return, unreachable
+asn1.c, 551, Xfree, free
+hmac.c, 56, Uninitialized memory, unknown-memory-access
+axssl.c, 276, Uninitialized memory, unreachable
+loader.c, 313, Check stdlibfunc return, ignored-call-side-effect
+hmac.c, 122, Uninitialized memory, unknown-memory-access
+tdate_parse.c, 92, Check stdlibfunc return, ignored-call-side-effect
+htpasswd.c, 51, Dead store, buffer-overflow
+tls1.c, 256, Dead store, unknown-memory-access
+sha1.c, 125, Uninitialized memory, null-pointer-deref
+asn1.c, 306, Xfree, free
+axhttpd.c, 389, Dead store, signed-int-overflow
+htpasswd.c, 140, Uninitialized memory, buffer-overflow
+proc.c, 1046, Uninitialized memory, ignored-call-side-effect
+proc.c, 1150, Uninitialized memory, ignored-call-side-effect
+p12.c, 476, Xfree, free
+proc.c, 1072, Check stdlibfunc return, ignored-call-side-effect
+tls1.c, 1247, Uninitialized memory, buffer-overflow
+gen_cert.c, 360, Uninitialized memory, null-pointer-deref
+loader.c, 280, Uninitialized memory, unreachable
+proc.c, 1219, Check stdlibfunc return, ignored-call-side-effect
+proc.c, 1129, Check stdlibfunc return, ignored-call-side-effect
